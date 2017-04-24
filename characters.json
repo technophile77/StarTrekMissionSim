@@ -1,0 +1,217 @@
+{"characters":
+[
+  {
+    "name":"captain q",
+    "bonus":1,
+    "command":372,
+    "diplomacy":591,
+    "science":511
+  },
+  {
+    "name":"human q",
+    "bonus":1,
+    "diplomacy":237,
+    "engineering":640,
+    "science":442
+  },
+  {
+    "name":"platonian kirk",
+    "bonus":2,
+    "command":458,
+    "diplomacy":126,
+    "security":495
+  },
+  {
+    "name":"jake",
+    "bonus":1,
+    "diplomacy":451
+  },
+  {
+    "name":"chief engineer la forge",
+    "bonus":1,
+    "engineering":352,
+    "command":132,
+    "science":226
+  },
+  {
+    "name":"command wrap kirk",
+    "bonus":2,
+    "command":292,
+    "diplomacy":153,
+    "security":197
+  },
+  {
+    "name":"enterprise-d picard",
+    "bonus":2,
+    "command":249,
+    "diplomacy":337,
+    "science":151
+  },
+  {
+    "name":"captain kirk",
+    "bonus":2,
+    "command":317,
+    "diplomacy":259,
+    "security":128
+  },
+  {
+    "name":"detective dixon hill",
+    "bonus":3,
+    "command":369,
+    "diplomacy":478,
+    "security":213
+  },
+  {
+    "name":"captain sulu",
+    "bonus":1,
+    "command":627,
+    "diplomacy":398,
+    "security":273
+  },
+  {
+    "name":"rifle janeway",
+    "bonus":1,
+    "command":502,
+    "security":353,
+    "science":143
+  },
+  {
+    "name":"stranded odo",
+    "bonus":1,
+    "command":409,
+    "diplomacy":196,
+    "security":331
+  },
+  {
+    "name":"maquis ro lauren",
+    "bonus":1,
+    "command":392,
+    "diplomacy":183,
+    "security":583
+  },
+  {
+    "name":"convergence day quark",
+    "bonus":1,
+    "command":378,
+    "diplomacy":368
+  },
+  {
+    "name":"ambassador sarek",
+    "bonus":1,
+    "command":191,
+    "diplomacy":450,
+    "science":315
+  },
+  {
+    "name":"klingon quark",
+    "bonus":1,
+    "command":232,
+    "diplomacy":443,
+    "security":303
+  },
+  {
+    "name":"klingon quark(shared)",
+    "bonus":1,
+    "command":363,
+    "diplomacy":637,
+    "security":369
+  },
+  {
+    "name":"kdf gowron",
+    "bonus":1,
+    "command":224,
+    "diplomacy":417,
+    "security":205
+  },
+  {
+    "name":"automated unit 3947",
+    "bonus":1,
+    "engineering":393,
+    "security":119,
+    "science":323
+  },
+  {
+    "name":"augment riker",
+    "bonus":1,
+    "engineering":385,
+    "command":241,
+    "security":389
+  },
+  {
+    "name":"ensign vorik",
+    "bonus":1,
+    "engineering":383
+  },
+  {
+    "name":"constable odo",
+    "bonus":1,
+    "command":317,
+    "security":523
+  },
+  {
+    "name":"kal-if-fee spock",
+    "bonus":1,
+    "command":201,
+    "security":502,
+    "science":386
+  },
+  {
+    "name":"warship chakotay",
+    "bonus":1,
+    "command":258,
+    "security":394
+  },
+  {
+    "name":"commando crusher",
+    "bonus":1,
+    "security":308,
+    "science":182,
+    "medicine":510
+  },
+  {
+    "name":"combat medic paris",
+    "bonus":1,
+    "command":164,
+    "security":289,
+    "medicine":490
+  },
+  {
+    "name":"holonovel doctor",
+    "bonus":1,
+    "science":265,
+    "medicine":305
+  },
+  {
+    "name":"gralik durr",
+    "bonus":1,
+    "engineering":250,
+    "science":341
+  },
+  {
+    "name":"disguised tuvok",
+    "bonus":1,
+    "command":236,
+    "security":348,
+    "science":592
+  },
+  {
+    "name":"subcommander t'pol",
+    "bonus":1,
+    "command":273,
+    "security":165,
+    "science":520
+  },
+  {
+    "name":"dr. reyga",
+    "bonus":1,
+    "diplomacy":300,
+    "science":512
+  },
+  {
+    "name":"gralik durr",
+    "bonus":1,
+    "engineering":250,
+    "science":341
+  }
+  ]
+}

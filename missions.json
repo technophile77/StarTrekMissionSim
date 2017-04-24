@@ -1,0 +1,29 @@
+{"missions":
+  [
+  {
+    "name":"event mission 1",
+    "slot1":"security or command",
+    "slot2":"security",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"event mission 2",
+    "slot1":"science",
+    "slot2":"security",
+    "slot3":"diplomacy and command",
+    "slot4":"diplomacy or security"
+  },
+  {
+    "name":"event mission 3",
+    "slot1":"medicine",
+    "slot2":"diplomacy or security",
+    "slot3":"security and command",
+    "slot4":"security"
+  },
+  {
+    "name":"event mission 4",
+    "slot1":"diplomacy or command",
+    "slot2":"diplomacy"
+  }
+  ]
+}
