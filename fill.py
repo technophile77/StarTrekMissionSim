@@ -49,9 +49,9 @@ def assign_characters_to_missions(mission_name1, mission_name2, mission_name3, m
     #pprint(skill_list)
     skills_by_character = get_skills_by_character(skill_list,character_data)
     #pprint(skills_by_character)
-    for key in skills_by_character.keys():
-        pprint("---" + key + "---")
-        pprint(skills_by_character[key])
+    #for key in skills_by_character.keys():
+    #    pprint("---" + key + "---")
+    #    pprint(skills_by_character[key])
     character_by_skills = get_character_by_skills(skill_list,character_data)
     #pprint(character_by_skills)
     for depth in range(len(skill_list)):
@@ -305,7 +305,7 @@ def eval_mission_assignments_debug(character_assignments, mission_data, characte
                 # now we know which skill(s) this slot requires
                 for skill2, value in [ item2 for item2 in character_by_skills[character] if skill in item2 ]:
                     skill_value=value
-                    pprint(value)
+                    #pprint(value)
                     mission_value=mission_value+skill_value
         pprint("Mission total: " + str(mission_value))
         mission_average=mission_value/(len(mission_element)-1) # we have to adjust for the name element which doesn't count
@@ -318,25 +318,28 @@ def eval_mission_assignments_debug(character_assignments, mission_data, characte
 
 
 assignments=assign_characters_to_missions("event mission 1", "event mission 2", "event mission 3", "event mission 4", mission_data, character_data)
-pprint(assignments)
+for mission in assignments.keys():
+    pprint("Mission: " + mission)
+    pprint(assignments[mission])
+#pprint(assignments)
 
 score=eval_mission_assignments(assignments, mission_data, character_data)
 
 pprint("Total score: " + str(score))
 
-test=is_character_available("captain q",assignments)
+#test=is_character_available("captain q",assignments)
 
-if test:
-    pprint("captain q is not assigned")
-else:
-    pprint("captain q is assigned")
+#if test:
+#    pprint("captain q is not assigned")
+#else:
+#    pprint("captain q is assigned")
 
-test2=is_character_available("automated unit 3947",assignments)
+#test2=is_character_available("automated unit 3947",assignments)
 
-if test2:
-    pprint("APU 3947 is not assigned")
-else:
-    pprint("APU 3947 is assigned")
+#if test2:
+#    pprint("APU 3947 is not assigned")
+#else:
+#    pprint("APU 3947 is assigned")
 
 #skill_num=get_character_skill("diplomacy",character_data['characters'][0])
 #pprint(character_data['characters'][0]['name'] + " skill diplomacy is " + str(skill_num))
