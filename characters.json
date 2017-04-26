@@ -3,6 +3,7 @@
   {
     "name":"captain q",
     "bonus":1,
+    "frozen":false,
     "command":372,
     "diplomacy":591,
     "science":511
@@ -10,10 +11,18 @@
   {
     "name":"human q",
     "bonus":1,
-    "frozen":true,
+    "frozen":false,
     "diplomacy":237,
     "engineering":640,
     "science":442
+  },
+  {
+    "name":"lieutenant saavik",
+    "bonus":1,
+    "frozen":true,
+    "command":470,
+    "science":457,
+    "diplomacy":146
   },
   {
     "name":"platonian kirk",

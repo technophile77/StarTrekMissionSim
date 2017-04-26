@@ -42,9 +42,9 @@ def assign_characters_to_missions(mission_name1, mission_name2, mission_name3, m
     #pprint(skill_list)
     skills_by_character = get_skills_by_character(skill_list,character_data)
     #pprint(skills_by_character)
-    for key in skills_by_character.keys():
-        pprint("---" + key + "---")
-        pprint(skills_by_character[key])
+    #for key in skills_by_character.keys():
+    #    pprint("---" + key + "---")
+    #    pprint(skills_by_character[key])
     character_by_skills = get_character_by_skills(skill_list,character_data)
     #pprint(character_by_skills)
     for depth in range(len(skill_list)):
@@ -342,7 +342,17 @@ def eval_mission_assignments_debug(character_assignments, mission_data, characte
         total_score=total_score+mission_average
     return total_score
 
+def filter_frozen_characters(character_data):
+    character_data_filtered_list=[item for item in character_data['characters'] if not is_frozen(item)]
+    character_data_filtered=defaultdict(list)
+    character_data_filtered['characters']=character_data_filtered_list
+    return character_data_filtered
 
+def is_frozen(character):
+    if "frozen" in character.keys():
+        if character['frozen']:
+            return True
+    return False
 #def display_assignments(character_assignments,mission_data,character_data):
 
 
@@ -354,8 +364,9 @@ with open('characters.json') as character_file:
 
 validate_characters(character_data)
 
+unfrozen_character_data=filter_frozen_characters(character_data)
 
-assignments=assign_characters_to_missions("mercy mission", "escort founder", "sector reconnaissance", "vorta experimentation", mission_data, character_data)
+assignments=assign_characters_to_missions("mercy mission", "escort founder", "sector reconnaissance", "vorta experimentation", mission_data, unfrozen_character_data)
 for mission in assignments.keys():
     pprint("Mission: " + mission)
     pprint(assignments[mission])
