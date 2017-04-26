@@ -20,6 +20,4 @@ I would highly encourage that you check your results for now, as I have not done
 
 
 TODO LIST:
--validate character data
--add frozen tag to character and include option to unfreeze
 -add remaining faction missions to missions.json

@@ -53,6 +53,29 @@
     "slot3":"diplomacy"
   },
   {
+    "name":"steal eugenics research",
+    "slot1":"medicine",
+    "slot2":"science",
+    "slot3":"security"
+  },
+  {
+    "name":"colonize new world",
+    "slot1":"science",
+    "slot2":"engineering",
+    "slot3":"security"
+  },
+  {
+    "name":"quell dissent",
+    "slot1":"diplomacy or security",
+    "slot2":"diplomacy or security",
+    "slot3":"command"
+  },
+  {
+    "name":"raid cold stations",
+    "slot1":"security",
+    "slot2":"diplomacy or security"
+  },
+  {
     "name":"study badlands storms",
     "slot1":"medicine",
     "slot2":"science",
