@@ -2,28 +2,68 @@
   [
   {
     "name":"event mission 1",
-    "slot1":"security or command",
-    "slot2":"security",
-    "slot3":"diplomacy"
+    "slot1":"science",
+    "slot2":"engineering",
+    "slot3":"security"
   },
   {
     "name":"event mission 2",
-    "slot1":"science",
-    "slot2":"security",
-    "slot3":"diplomacy and command",
-    "slot4":"diplomacy or security"
+    "slot1":"diplomacy or security",
+    "slot2":"diplomacy or security",
+    "slot3":"command"
   },
   {
     "name":"event mission 3",
-    "slot1":"medicine",
-    "slot2":"diplomacy or security",
-    "slot3":"security and command",
-    "slot4":"security"
+    "slot1":"science",
+    "slot2":"command and science"
   },
   {
     "name":"event mission 4",
-    "slot1":"diplomacy or command",
-    "slot2":"diplomacy"
+    "slot1":"security",
+    "slot2":"diplomacy or security"
+  },
+  {
+    "name":"mercy mission",
+    "slot1":"science or medicine",
+    "slot2":"medicine",
+    "slot3":"command"
+  },
+  {
+    "name":"escort founder",
+    "slot1":"security",
+    "slot2":"diplomacy or security",
+    "slot3":"diplomacy or command"
+  },
+  {
+    "name":"vorta experimentation",
+    "slot1":"medicine or engineering",
+    "slot2":"medicine",
+    "slot3":"science"
+  },
+  {
+    "name":"verify founder numbers",
+    "slot1":"security",
+    "slot2":"engineering",
+    "slot3":"science"
+  },
+  {
+    "name":"sector reconnaissance",
+    "slot1":"command",
+    "slot2":"science",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"study badlands storms",
+    "slot1":"medicine",
+    "slot2":"science",
+    "slot3":"science",
+    "slot4":"command"
+  },
+  {
+    "name":"test agent loyalty",
+    "slot1":"medicine",
+    "slot2":"security",
+    "slot3":"diplomacy or security"
   }
   ]
 }

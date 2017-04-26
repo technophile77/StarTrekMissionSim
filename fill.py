@@ -7,13 +7,6 @@ from collections import defaultdict
 from copy import deepcopy
 
 
-with open('missions.json') as mission_file:
-  mission_data = json.load(mission_file)
-
-with open('characters.json') as character_file:
-    character_data = json.load(character_file)
-
-
 #pprint(mission_data)
 
 #pprint(character_data)
@@ -49,9 +42,9 @@ def assign_characters_to_missions(mission_name1, mission_name2, mission_name3, m
     #pprint(skill_list)
     skills_by_character = get_skills_by_character(skill_list,character_data)
     #pprint(skills_by_character)
-    #for key in skills_by_character.keys():
-    #    pprint("---" + key + "---")
-    #    pprint(skills_by_character[key])
+    for key in skills_by_character.keys():
+        pprint("---" + key + "---")
+        pprint(skills_by_character[key])
     character_by_skills = get_character_by_skills(skill_list,character_data)
     #pprint(character_by_skills)
     for depth in range(len(skill_list)):
@@ -112,41 +105,77 @@ def assign_characters_to_missions(mission_name1, mission_name2, mission_name3, m
                         #pprint(character_by_skills[character])
                         if(depth < len(character_by_skills[character])):
                             (skill_n,value_n)=character_by_skills[character][depth]
-                            # here we are picking up the depth'th highest skill from the character, sorted highest to lowest
-                            #pprint("comparing " + mission[skill] + " " + str(skill_value) + " to " + skill_n + " " + str(value_n))
-                            # if the skill we want to use for this slot is higher than or equal to the depth'th skill, then we use it
-                            # as we increase depth, we will have the opportunity to use lower rank skills, IF they are higher than
-                            # the skill of the character that is currently selected
-                            if skill_value >= value_n:
-                                list=[item for item in character_by_skills[character_assignments[mission['name']][skill]] if mission[skill].lower() in item]
-                                #pprint(list)
-                                if list:
-                                    (current_skill,current_value)=list[0]
-                                    if skill_value > current_value:
-                                        #pprint("testing " + character_assignments[mission['name']][skill] + "(" + str(current_value) + ") with " + character + "(" + str(skill_value) + ") in mission: " + mission['name'] + " slot: " + skill)
+                        else:
+                            (skill_n,value_n)=character_by_skills[character][len(character_by_skills[character])-1]
+                        # here we are picking up the depth'th highest skill from the character, sorted highest to lowest
+                        #pprint("comparing " + mission[skill] + " " + str(skill_value) + " to " + skill_n + " " + str(value_n))
+                        # if the skill we want to use for this slot is higher than or equal to the depth'th skill, then we use it
+                        # as we increase depth, we will have the opportunity to use lower rank skills, IF they are higher than
+                        # the skill of the character that is currently selected
+                        if skill_value >= value_n:
+                            list=[item for item in character_by_skills[character_assignments[mission['name']][skill]] if mission[skill].lower() in item]
+                            #pprint(list)
+                            if list:
+                                (current_skill,current_value)=list[0]
+                                if skill_value > current_value:
+                                    #pprint("testing " + character_assignments[mission['name']][skill] + "(" + str(current_value) + ") with " + character + "(" + str(skill_value) + ") in mission: " + mission['name'] + " slot: " + skill)
+                                    current_score=eval_mission_assignments(character_assignments,mission_data,character_data)
+                                    if is_character_available(character,character_assignments):
+                                        pprint("replacing " + character_assignments[mission['name']][skill] + "(" + str(current_value) + ") with " + character + "(" + str(skill_value) + ") in mission: " + mission['name'] + " slot: " + skill)
+                                        character_assignments[mission['name']][skill]=character
                                         current_score=eval_mission_assignments(character_assignments,mission_data,character_data)
-                                        if is_character_available(character,character_assignments):
+                                        pprint("New score: " + str(current_score))
+                                    else:
+                                        (current_mission,current_slot)=where_is_character_assigned(character,character_assignments)
+                                        slot_skill=find_slot_skill(mission['name'],skill,mission_data)
+                                        new_character=find_available_character_with_skill(slot_skill,skills_by_character,character_assignments)
+                                        character_assignments_test=deepcopy(character_assignments)
+                                        character_assignments_test[mission['name']][skill]=character
+                                        character_assignments_test[current_mission][current_slot]=new_character
+                                        test_score=eval_mission_assignments(character_assignments_test,mission_data,character_data)
+                                        if test_score > current_score:
+                                            pprint("replacing " + character_assignments[mission['name']][skill] + "(" + str(current_value) + ") with " + character + "(" + str(skill_value) + ") in mission: " + mission['name'] + " slot: " + skill)
                                             character_assignments[mission['name']][skill]=character
+                                            character_assignments[current_mission][current_slot]=new_character
                                             current_score=eval_mission_assignments(character_assignments,mission_data,character_data)
                                             pprint("New score: " + str(current_score))
-                                        else:
-                                            (current_mission,current_slot)=where_is_character_assigned(character,character_assignments)
-                                            slot_skill=find_slot_skill(mission['name'],skill,mission_data)
-                                            new_character=find_available_character_with_skill(slot_skill,skills_by_character,character_assignments)
-                                            character_assignments_test=deepcopy(character_assignments)
-                                            character_assignments_test[mission['name']][skill]=character
-                                            character_assignments_test[current_mission][current_slot]=new_character
-                                            test_score=eval_mission_assignments(character_assignments_test,mission_data,character_data)
-                                            if test_score > current_score:
-                                                pprint("replacing " + character_assignments[mission['name']][skill] + "(" + str(current_value) + ") with " + character + "(" + str(skill_value) + ") in mission: " + mission['name'] + " slot: " + skill)
-                                                character_assignments[mission['name']][skill]=character
-                                                character_assignments[current_mission][current_slot]=new_character
-                                                current_score=eval_mission_assignments(character_assignments,mission_data,character_data)
-                                                pprint("New score: " + str(current_score))
-
 
 
     return character_assignments
+
+def validate_characters(character_data):
+    for character in character_data['characters']:
+        if 'name' in character.keys():
+            name=character['name']
+        else:
+            pprint(character)
+            raise ValueError('found a character lacking a name trait')
+        if not type(name) in [str,unicode]:
+            pprint(name)
+            pprint(type(name))
+            raise ValueError('found a character with non-string name')
+        for key in character.keys():
+            if not key in ['name','bonus','frozen','command','diplomacy','security','science','engineering','medicine','frozen']:
+                pprint(key)
+                raise ValueError('found an unknown key in character: ' + character['name'])
+        if 'bonus' in character.keys():
+            bonus=character['bonus']
+        else:
+            raise ValueError('character: ' + name + ' has no bonus value')
+        if not isinstance(bonus,int):
+            raise ValueError('character: ' + name + ' has a non number or string for bonus')
+        traits=[item for item in character.keys() if item in ["command","diplomacy","security","science","engineering","medicine"]]
+        if len(traits) < 1:
+            raise ValueError('character: ' + character['name'] + ' has no abilities')
+        for trait in traits:
+            if not isinstance(character[trait],int):
+                pprint(character[trait])
+                raise ValueError('character: ' + character['name'] + ' has a trait: ' + trait + ' with a non-numeric value')
+    for character in character_data['characters']:
+        duplicates=[item for item in character_data['characters'] if item['name'] == character['name']]
+        if len(duplicates) > 1:
+            raise ValueError('found ' + str (len(duplicates)) + ' copies of character: ' + character['name'])
+    return 0
 
 def find_slot_skill(find_mission,find_slot,mission_data):
     for mission in mission_data['missions']:
@@ -317,7 +346,16 @@ def eval_mission_assignments_debug(character_assignments, mission_data, characte
 #def display_assignments(character_assignments,mission_data,character_data):
 
 
-assignments=assign_characters_to_missions("event mission 1", "event mission 2", "event mission 3", "event mission 4", mission_data, character_data)
+with open('missions.json') as mission_file:
+  mission_data = json.load(mission_file)
+
+with open('characters.json') as character_file:
+    character_data = json.load(character_file)
+
+validate_characters(character_data)
+
+
+assignments=assign_characters_to_missions("mercy mission", "escort founder", "sector reconnaissance", "vorta experimentation", mission_data, character_data)
 for mission in assignments.keys():
     pprint("Mission: " + mission)
     pprint(assignments[mission])

@@ -10,13 +10,14 @@
   {
     "name":"human q",
     "bonus":1,
+    "frozen":true,
     "diplomacy":237,
     "engineering":640,
     "science":442
   },
   {
     "name":"platonian kirk",
-    "bonus":2,
+    "bonus":1,
     "command":458,
     "diplomacy":126,
     "security":495
@@ -27,36 +28,55 @@
     "diplomacy":451
   },
   {
+    "name":"security chief tuvok",
+    "bonus":1,
+    "security":445,
+    "command":291,
+    "science":145
+  },
+  {
+    "name":"third remata'klan",
+    "bonus":1,
+    "security":467,
+    "command":410
+  },
+  {
+    "name":"lwaxana troi",
+    "bonus":1,
+    "diplomacy":410,
+    "command":334
+  },
+  {
     "name":"chief engineer la forge",
     "bonus":1,
-    "engineering":352,
-    "command":132,
-    "science":226
+    "engineering":428,
+    "command":177,
+    "science":328
   },
   {
     "name":"command wrap kirk",
-    "bonus":2,
+    "bonus":1,
     "command":292,
     "diplomacy":153,
     "security":197
   },
   {
     "name":"enterprise-d picard",
-    "bonus":2,
+    "bonus":1,
     "command":249,
     "diplomacy":337,
     "science":151
   },
   {
     "name":"captain kirk",
-    "bonus":2,
+    "bonus":1,
     "command":317,
     "diplomacy":259,
     "security":128
   },
   {
     "name":"detective dixon hill",
-    "bonus":3,
+    "bonus":1,
     "command":369,
     "diplomacy":478,
     "security":213
@@ -108,13 +128,6 @@
     "command":232,
     "diplomacy":443,
     "security":303
-  },
-  {
-    "name":"klingon quark(shared)",
-    "bonus":1,
-    "command":363,
-    "diplomacy":637,
-    "security":369
   },
   {
     "name":"kdf gowron",
@@ -182,18 +195,26 @@
     "medicine":305
   },
   {
-    "name":"gralik durr",
-    "bonus":1,
-    "engineering":250,
-    "science":341
-  },
-  {
     "name":"disguised tuvok",
     "bonus":1,
     "command":236,
     "security":348,
     "science":592
   },
+  {
+    "name":"major kira",
+    "bonus":1,
+    "command":273,
+    "security":304
+  },
+  {
+    "name":"tailor garak",
+    "bonus":1,
+    "diplomacy":395,
+    "security":495,
+    "engineering":158
+  },
+
   {
     "name":"subcommander t'pol",
     "bonus":1,
@@ -212,6 +233,24 @@
     "bonus":1,
     "engineering":250,
     "science":341
+  },
+  {
+    "name":"cmo crusher",
+    "bonus":1,
+    "medicine":288
+  },
+  {
+    "name":"deanna troi",
+    "bonus":1,
+    "command":97,
+    "diplomacy":206,
+    "medicine":260
+  },
+  {
+    "name":"mirrir phlox",
+    "bonus":1,
+    "security":154,
+    "medicine":233
   }
   ]
 }

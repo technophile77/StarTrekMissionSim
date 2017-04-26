@@ -14,6 +14,12 @@ The magic really happens in the function assign_characters_to_missions. When you
 
 This will return a set of character assignments which should then get printed by the code below that call, and that's pretty much how to use it.
 
-I don't want to get too much into how it works, but it's definately not a very efficient algorithm, but the completion time is reasonable for me, so unless someone experiences some problems with it, I probably won't tweak how it works. The overall goal of the algorithm is to get the highest possible sum of average skills across the missions you assign it. Mission success is based off average skill level in a mission, so whether a mission requires 2 characters or 5 characters, the average is what counts. Aiming for the highest sum of averages seems like the right approach, but it could also be argued that you don't want to let one mission fall too low just to get a really high score in another mission, so I may introduce some other options for optimization types (expecially if there is a request for it) in future.
+I don't want to get too much into how it works, but it's definately not a very efficient algorithm, but the completion time is reasonable for me, so unless someone experiences some problems with it, I probably won't tweak how it works. The overall goal of the algorithm is to get the highest possible sum of average skills across the missions you assign it. Mission success is based off average skill level in a mission, so whether a mission requires 2 characters or 5 characters, the average is what counts. Aiming for the highest sum of averages seems like the right approach, but it could also be argued that you don't want to let one mission fall too low just to get a really high score in another mission, so I may introduce some other options for optimization types (especially if there is a request for it) in future.
 
 I would highly encourage that you check your results for now, as I have not done extensive testing as of yet. I'll be happy to fix relevant bugs, etc. As far as making this a more user friendly tool, I'm not especially interested in that, but I would be happy to work with someone if they want to include this as a backend to something more user friendly.
+
+
+TODO LIST:
+-validate character data
+-add frozen tag to character and include option to unfreeze
+-add remaining faction missions to missions.json
