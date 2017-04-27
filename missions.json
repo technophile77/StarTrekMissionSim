@@ -87,6 +87,44 @@
     "slot1":"medicine",
     "slot2":"security",
     "slot3":"diplomacy or security"
+  },
+  {
+    "name":"rebuild cardassian city",
+    "slot1":"medicine",
+    "slot2":"engineering",
+    "slot3":"command or engineering"
+  },
+  {
+    "name":"support loyal house",
+    "slot1":"security",
+    "slot2":"diplomacy or security",
+    "slot3":"diplomacy or engineering"
+  },
+  {
+    "name":"trace obsidian order",
+    "slot1":"security",
+    "slot2":"diplomacy or security",
+    "slot3":"diplomacy or security"
+  },
+  {
+    "name":"train security forces",
+    "slot1":"security",
+    "slot2":"diplomacy",
+    "slot3":"command or security"
+  },
+  {
+    "name":"investigate infection",
+    "slot1":"medicine",
+    "slot2":"science",
+    "slot3":"security",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"decontaminate colony world",
+    "slot1":"medicine",
+    "slot2":"diplomacy",
+    "slot3":"science",
+    "slot4":"command or science"
   }
   ]
 }
