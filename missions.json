@@ -125,6 +125,294 @@
     "slot2":"diplomacy",
     "slot3":"science",
     "slot4":"command or science"
+  },
+  {
+    "name":"expose conspiracy",
+    "slot1":"security or diplomacy",
+    "slot2":"security or diplomacy",
+    "slot3":"command"
+  },
+  {
+    "name":"test officer loyalty",
+    "slot1":"security or medicine",
+    "slot2":"diplomacy or security"
+  },
+  {
+    "name":"intimidate colony",
+    "slot1":"security or science",
+    "slot2":"security",
+    "slot3":"command or diplomacy"
+  },
+  {
+    "name":"impersonate and infiltrate",
+    "slot1":"engineering or science",
+    "slot2":"security",
+    "slot3":"command or security"
+  },
+  {
+    "name":"steal starfleet technology",
+    "slot1":"engineering or science",
+    "slot2":"security",
+    "slot3":"diplomacy or security"
+  },
+  {
+    "name":"co-opt scientists",
+    "slot1":"science",
+    "slot2":"command and science"
+  },
+  {
+    "name":"conduct proxy vendetta",
+    "slot1":"engineering or security",
+    "slot2":"engineering or diplomacy",
+    "slot3":"security",
+    "slot4":"command"
+  },
+  {
+    "name":"reinforce outlying colony",
+    "slot1":"engineering or science",
+    "slot2":"security or engineering",
+    "slot3":"security",
+    "slot4":"diplomacy or command"
+  },
+  {
+    "name":"high council intrigue",
+    "slot1":"security",
+    "slot2":"diplomacy and security"
+  },
+  {
+    "name":"find poisoner",
+    "slot1":"diplomacy or science",
+    "slot2":"security",
+    "slot3":"command"
+  },
+  {
+    "name":"conduct wormhole survey",
+    "slot1":"science",
+    "slot2":"command"
+  },
+  {
+    "name":"investigate orb sighting",
+    "slot1":"science",
+    "slot2":"command or diplomacy"
+  },
+  {
+    "name":"investigate pah-wraith",
+    "slot1":"science",
+    "slot2":"security",
+    "slot3":"command and diplomacy"
+  },
+  {
+    "name":"observe time of cleansing",
+    "slot1":"diplomacy"
+  },
+  {
+    "name":"reunite bajoran refugees",
+    "slot1":"security or diplomacy",
+    "slot2":"science",
+    "slot3":"command"
+  },
+  {
+    "name":"evaluate sentient ai",
+    "slot1":"engineering",
+    "slot2":"science",
+    "slot3":"command"
+  },
+  {
+    "name":"federation diplomacy",
+    "slot1":"diplomacy or security",
+    "slot2":"diplomacy or science",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"fight the blight",
+    "slot1":"science or engineering",
+    "slot2":"science",
+    "slot3":"command"
+  },
+  {
+    "name":"galactic tsunkatse",
+    "slot1":"engineering",
+    "slot2":"security and command",
+    "slot3":"security"
+  },
+  {
+    "name":"hot dog",
+    "slot1":"diplomacy",
+    "slot2":"diplomacy and command",
+    "slot3":"command"
+  },
+  {
+    "name":"inspect subspace relay",
+    "slot1":"command or diplomacy",
+    "slot2":"security",
+    "slot3":"engineering"
+  },
+  {
+    "name":"investigate corruption",
+    "slot1":"command",
+    "slot2":"security",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"measure temporal anomaly",
+    "slot1":"engineering",
+    "slot2":"science or engineering",
+    "slot3":"science"
+  },
+  {
+    "name":"rescue citizen captives",
+    "slot1":"diplomacy or command",
+    "slot2":"diplomacy",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"resettle refugees",
+    "slot1":"command",
+    "slot2":"security or engineering",
+    "slot3":"security"
+  },
+  {
+    "name":"resolve trade dispute",
+    "slot1":"command or diplomacy",
+    "slot2":"diplomacy"
+  },
+  {
+    "name":"scientific ethics",
+    "slot1":"diplomacy or command",
+    "slot2":"science",
+    "slot3":"command"
+  },
+  {
+    "name":"broker trade agreement",
+    "slot1":"security",
+    "slot2":"diplomacy",
+    "slot3":"diplomacy and command"
+  },
+  {
+    "name":"combat slave trade",
+    "slot1":"security",
+    "slot2":"science or engineering",
+    "slot3":"diplomacy or security"
+  },
+  {
+    "name":"hire reputable supplier",
+    "slot1":"science or medicine",
+    "slot2":"security",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"insulate markets",
+    "slot1":"security or command",
+    "slot2":"diplomacy",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"launder money",
+    "slot1":"engineering",
+    "slot2":"security",
+    "slot3":"diplomacy",
+    "slot4":"diplomacy and command"
+  },
+  {
+    "name":"liberalize trade practices",
+    "slot1":"engineering",
+    "slot2":"diplomacy",
+    "slot3":"diplomacy or command"
+  },
+  {
+    "name":"protect trade union",
+    "slot1":"command",
+    "slot2":"security or engineering",
+    "slot3":"security"
+  },
+  {
+    "name":"renegotiate trade deal",
+    "slot1":"security",
+    "slot2":"command or diplomacy",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"rescue swindler",
+    "slot1":"command",
+    "slot2":"security",
+    "slot3":"security or diplomacy"
+  },
+  {
+    "name":"support profit sharing",
+    "slot1":"diplomacy and command",
+    "slot2":"diplomacy"
+  },
+  {
+    "name":"upgrade defenses",
+    "slot1":"security",
+    "slot2":"command",
+    "slot3":"engineering or science"
+  },
+  {
+    "name":"revise holoprogram",
+    "slot1":"science or engineering",
+    "slot2":"engineering",
+    "slot3":"command or engineering"
+  },
+  {
+    "name":"treat hirogen hunter",
+    "slot1":"security",
+    "slot2":"medicine",
+    "slot3":"command or medicine"
+  },
+  {
+    "name":"identify alphas",
+    "slot1":"diplomacy",
+    "slot2":"security",
+    "slot3":"command or diplomacy"
+  },
+  {
+    "name":"negotiate hunting rights",
+    "slot1":"science",
+    "slot2":"security",
+    "slot3":"command",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"evade starfleet agents",
+    "slot1":"security or science",
+    "slot2":"diplomacy",
+    "slot3":"security"
+  },
+  {
+    "name":"repair comm relay",
+    "slot1":"science and engineering",
+    "slot2":"engineering",
+    "slot3":"command"
+  },
+  {
+    "name":"influence commander",
+    "slot1":"command or security",
+    "slot2":"command",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"support alliance ally",
+    "slot1":"security",
+    "slot2":"diplomacy or security",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"summon mercenaries",
+    "slot1":"security",
+    "slot2":"command",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"configure mind-sifter",
+    "slot1":"medicine",
+    "slot2":"science or engineering",
+    "slot3":"diplomacy or science"
+  },
+  {
+    "name":"backchannel diplomacy",
+    "slot1":"diplomacy",
+    "slot2":"diplomacy"
   }
   ]
 }

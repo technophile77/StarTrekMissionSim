@@ -367,11 +367,12 @@ validate_characters(character_data)
 unfrozen_character_data=filter_frozen_characters(character_data)
 
 #this will run the search including frozen characters
+assignments=assign_characters_to_missions("steal starfleet technology","expose conspiracy","impersonate and infiltrate","intimidate colony", mission_data, character_data)
 #assignments=assign_characters_to_missions("steal eugenics research", "colonize new world", "quell dissent", "raid cold stations", mission_data, character_data)
 
 
 #this will run the search excluding frozen characters
-assignments=assign_characters_to_missions("steal eugenics research", "colonize new world", "quell dissent", "raid cold stations", mission_data, unfrozen_character_data)
+#assignments=assign_characters_to_missions("", "escort founder", "verify founder numbers", "vorta experimentation", mission_data, unfrozen_character_data)
 for mission in assignments.keys():
     pprint("Mission: " + mission)
     pprint(assignments[mission])

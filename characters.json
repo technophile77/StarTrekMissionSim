@@ -5,8 +5,8 @@
     "bonus":1,
     "frozen":false,
     "command":372,
-    "diplomacy":591,
-    "science":511
+    "diplomacy":606,
+    "science":536
   },
   {
     "name":"human q",
@@ -19,7 +19,7 @@
   {
     "name":"lieutenant saavik",
     "bonus":1,
-    "frozen":true,
+    "frozen":false,
     "command":470,
     "science":457,
     "diplomacy":146
@@ -33,6 +33,7 @@
   },
   {
     "name":"jake",
+    "frozen":false,
     "bonus":1,
     "diplomacy":451
   },
@@ -58,9 +59,16 @@
   {
     "name":"chief engineer la forge",
     "bonus":1,
-    "engineering":428,
-    "command":177,
-    "science":328
+    "engineering":465,
+    "command":181,
+    "science":337
+  },
+  {
+    "name":"telek r'mor",
+    "bonus":1,
+    "diplomacy":262,
+    "security":119,
+    "science":345
   },
   {
     "name":"command wrap kirk",
@@ -112,7 +120,7 @@
     "security":331
   },
   {
-    "name":"maquis ro lauren",
+    "name":"maquis ro laren",
     "bonus":1,
     "command":392,
     "diplomacy":183,
@@ -125,11 +133,29 @@
     "diplomacy":368
   },
   {
+    "name":"nurse kes",
+    "bonus":1,
+    "diplomacy":214,
+    "medicine":280
+  },
+  {
+    "name":"ensign seska",
+    "bonus":1,
+    "engineering":319,
+    "security":217
+  },
+  {
+    "name":"section 31 reed",
+    "bonus":1,
+    "command":92,
+    "security":218
+  },
+  {
     "name":"ambassador sarek",
     "bonus":1,
-    "command":191,
-    "diplomacy":450,
-    "science":315
+    "command":214,
+    "diplomacy":475,
+    "science":367
   },
   {
     "name":"klingon quark",
@@ -186,6 +212,7 @@
   {
     "name":"commando crusher",
     "bonus":1,
+    "frozen":true,
     "security":308,
     "science":182,
     "medicine":510
@@ -193,15 +220,15 @@
   {
     "name":"combat medic paris",
     "bonus":1,
-    "command":164,
-    "security":289,
-    "medicine":490
+    "command":193,
+    "security":336,
+    "medicine":511
   },
   {
     "name":"holonovel doctor",
     "bonus":1,
-    "science":265,
-    "medicine":305
+    "science":424,
+    "medicine":561
   },
   {
     "name":"disguised tuvok",
@@ -220,8 +247,8 @@
     "name":"tailor garak",
     "bonus":1,
     "diplomacy":395,
-    "security":495,
-    "engineering":158
+    "security":502,
+    "engineering":161
   },
 
   {
@@ -240,8 +267,8 @@
   {
     "name":"gralik durr",
     "bonus":1,
-    "engineering":250,
-    "science":341
+    "engineering":252,
+    "science":345
   },
   {
     "name":"cmo crusher",
@@ -256,10 +283,37 @@
     "medicine":260
   },
   {
-    "name":"mirrir phlox",
+    "name":"mirror phlox",
     "bonus":1,
     "security":154,
-    "medicine":233
+    "medicine":243
+  },
+  {
+    "name":"mirror garak",
+    "bonus":1,
+    "command":143,
+    "diplomacy":161,
+    "security":90
+  },
+  {
+    "name":"rogue harry kim",
+    "bonus":1,
+    "engineering":254,
+    "security":400,
+    "science":485
+  },
+  {
+    "name":"temporal agent seven",
+    "bonus":1,
+    "engineering":152,
+    "security":167,
+    "science":276
+  },
+  {
+    "name":"ensign mendon",
+    "bonus":1,
+    "engineering":210,
+    "science":262
   }
   ]
 }
