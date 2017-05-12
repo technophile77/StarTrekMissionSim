@@ -41,7 +41,7 @@ def assign_characters_to_missions(mission_name1, mission_name2, mission_name3, m
     skill_list=get_skill_list(mission_list)
     #pprint(skill_list)
     skills_by_character = get_skills_by_character(skill_list,character_data)
-    #pprint(skills_by_character)
+    pprint(skills_by_character)
     #for key in skills_by_character.keys():
     #    pprint("---" + key + "---")
     #    pprint(skills_by_character[key])
@@ -192,7 +192,7 @@ def find_available_character_with_skill(skill,skills_by_character,character_assi
 def is_character_available(character,character_assignments):
     for mission in character_assignments.keys():
         for slot in character_assignments[mission].keys():
-            if character.lower() in character_assignments[mission][slot].lower():
+            if character.lower() == character_assignments[mission][slot].lower():
                 return False
     return True
 
@@ -329,12 +329,12 @@ def eval_mission_assignments_debug(character_assignments, mission_data, characte
             # now we know which character is assigned to this slot
             for mission_instance in [ item for item in mission_data['missions'] if mission in item['name'] ]:
                 skill=mission_instance[slot]
-                #pprint(skill)
+                pprint(skill)
                 #pprint(character_by_skills[character])
                 # now we know which skill(s) this slot requires
                 for skill2, value in [ item2 for item2 in character_by_skills[character] if skill in item2 ]:
                     skill_value=value
-                    #pprint(value)
+                    pprint(value)
                     mission_value=mission_value+skill_value
         pprint("Mission total: " + str(mission_value))
         mission_average=mission_value/(len(mission_element)-1) # we have to adjust for the name element which doesn't count
@@ -367,20 +367,21 @@ validate_characters(character_data)
 unfrozen_character_data=filter_frozen_characters(character_data)
 
 #this will run the search including frozen characters
-assignments=assign_characters_to_missions("steal starfleet technology","expose conspiracy","impersonate and infiltrate","intimidate colony", mission_data, character_data)
+assignments=assign_characters_to_missions("event mission 1","event mission 2","event mission 3","event mission 4", mission_data, character_data)
+#assignments=assign_characters_to_missions("test officer loyalty","steal starfleet technology","summon mercenaries","influence commander", mission_data, character_data)
 #assignments=assign_characters_to_missions("steal eugenics research", "colonize new world", "quell dissent", "raid cold stations", mission_data, character_data)
 
 
 #this will run the search excluding frozen characters
 #assignments=assign_characters_to_missions("", "escort founder", "verify founder numbers", "vorta experimentation", mission_data, unfrozen_character_data)
+#pprint(assignments)
+
+score=eval_mission_assignments_debug(assignments, mission_data, character_data)
+
+pprint("Total score: " + str(score))
 for mission in assignments.keys():
     pprint("Mission: " + mission)
     pprint(assignments[mission])
-#pprint(assignments)
-
-score=eval_mission_assignments(assignments, mission_data, character_data)
-
-pprint("Total score: " + str(score))
 
 #test=is_character_available("captain q",assignments)
 
