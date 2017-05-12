@@ -20,4 +20,5 @@ I would highly encourage that you check your results, no guarantee that this wil
 
 
 TODO LIST:
--add remaining faction missions to missions.json
+- [ ] add remaining faction missions to missions.json
+- [ ] add command line options:missions and unfreeze
