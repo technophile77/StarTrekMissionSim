@@ -2,25 +2,380 @@
   [
   {
     "name":"event mission 1",
-    "slot1":"science",
-    "slot2":"engineering",
-    "slot3":"security"
+    "slot1":"command",
+    "slot2":"engineering and command",
+    "slot3":"engineering",
+    "slot4":"diplomacy or command"
   },
   {
     "name":"event mission 2",
-    "slot1":"diplomacy or security",
-    "slot2":"diplomacy or security",
-    "slot3":"command"
-  },
-  {
-    "name":"event mission 3",
-    "slot1":"science",
-    "slot2":"command and science"
+    "slot1":"engineering and command",
+    "slot2":"security",
+    "slot3":"engineering or science",
+    "slot4":"engineering"
   },
   {
     "name":"event mission 4",
     "slot1":"security",
-    "slot2":"diplomacy or security"
+    "slot2":"command and security",
+    "slot3":"science"
+  },
+  {
+    "name":"essential cargo",
+    "slot1":"engineering and command",
+    "slot2":"engineering or security",
+    "slot3":"security",
+    "slot4":"engineering"
+  },
+  {
+    "name":"shortcuts",
+    "slot1":"security and science",
+    "slot2":"science",
+    "slot3":"security",
+    "slot4":"diplomacy and command"
+  },
+  {
+    "name":"a knife through butter",
+    "slot1":"engineering and command",
+    "slot2":"engineering and diplomacy",
+    "slot3":"engineering and diplomacy"
+  },
+  {
+    "name":"into the depths",
+    "slot1":"security",
+    "slot2":"command or security",
+    "slot3":"science or command",
+    "slot4":"diplomacy or security",
+    "slot5":"diplomacy"
+  },
+  {
+    "name":"buried alive",
+    "slot1":"diplomacy and science",
+    "slot2":"command and security",
+    "slot3":"engineering and security",
+    "slot4":"engineering"
+  },
+  {
+    "name":"hazard course",
+    "slot1":"command and engineering",
+    "slot2":"medicine",
+    "slot3":"security",
+    "slot4":"engineering"
+  },
+  {
+    "name":"planetfall",
+    "slot1":"command and security",
+    "slot2":"engineering and command",
+    "slot3":"engineering and science"
+  },
+  {
+    "name":"room to think",
+    "slot1":"command and security",
+    "slot2":"diplomacy and science",
+    "slot3":"science and engineering",
+    "slot4":"science"
+  },
+  {
+    "name":"pests",
+    "slot1":"command",
+    "slot2":"security and command",
+    "slot3":"engineering",
+    "slot4":"security and diplomacy"
+  },
+  {
+    "name":"a higher caliber",
+    "slot1":"diplomacy and engineering",
+    "slot2":"command and security",
+    "slot3":"diplomacy and command",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"step by step",
+    "slot1":"engineering and command",
+    "slot2":"engineering",
+    "slot3":"engineering and security",
+    "slot4":"security"
+  },
+  {
+    "name":"one mind, one thought",
+    "slot1":"medicine",
+    "slot2":"science and diplomacy",
+    "slot3":"security and science",
+    "slot4":"security"
+  },
+  {
+    "name":"two of a kind",
+    "slot1":"security",
+    "slot2":"medicine or diplomacy",
+    "slot3":"medicine or security",
+    "slot4":"medicine or diplomacy",
+    "slot5":"medicine"
+  },
+  {
+    "name":"finding closure",
+    "slot1":"diplomacy and science",
+    "slot2":"diplomacy and medicine",
+    "slot3":"diplomacy and command"
+  },
+  {
+    "name":"artificial selection",
+    "slot1":"command and engineering",
+    "slot2":"command and science",
+    "slot3":"diplomacy and security"
+  },
+  {
+    "name":"his brothers' keeper",
+    "slot1":"engineering and diplomacy",
+    "slot2":"diplomacy",
+    "slot3":"engineering and science",
+    "slot4":"medicine and command"
+  },
+  {
+    "name":"competing forces",
+    "slot1":"science",
+    "slot2":"engineering and command",
+    "slot3":"medicine and science",
+    "slot4":"science"
+  },
+  {
+    "name":"the turning point",
+    "slot1":"engineering",
+    "slot2":"science and command",
+    "slot3":"science or medicine",
+    "slot4":"science"
+  },
+  {
+    "name":"family ties",
+    "slot1":"science",
+    "slot2":"diplomacy or engineering",
+    "slot3":"science or command",
+    "slot4":"diplomacy or command",
+    "slot5":"diplomacy"
+  },
+  {
+    "name":"methods of transmission",
+    "slot1":"diplomacy",
+    "slot2":"security",
+    "slot3":"engineering and command",
+    "slot4":"science or engineering"
+  },
+  {
+    "name":"personal space",
+    "slot1":"command",
+    "slot2":"security and command",
+    "slot3":"security and diplomacy",
+    "slot4":"security"
+  },
+  {
+    "name":"a different collective",
+    "slot1":"medicine and command",
+    "slot2":"engineering and command",
+    "slot3":"command",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"a matter of scale",
+    "slot1":"medicine and command",
+    "slot2":"command and science",
+    "slot3":"engineering and science"
+  },
+  {
+    "name":"untouched",
+    "slot1":"science",
+    "slot2":"engineering",
+    "slot3":"security and command",
+    "slot4":"engineering and command"
+  },
+  {
+    "name":"visiting hours",
+    "slot1":"engineering or science",
+    "slot2":"engineering",
+    "slot3":"diplomacy or engineering",
+    "slot4":"engineering",
+    "slot5":"diplomacy"
+  },
+  {
+    "name":"darkest fears",
+    "slot1":"engineering or diplomacy",
+    "slot2":"engineering",
+    "slot3":"diplomacy or command",
+    "slot4":"engineering or medicine",
+    "slot5":"medicine"
+  },
+  {
+    "name":"the aging process",
+    "slot1":"engineering and command",
+    "slot2":"engineering and medicine",
+    "slot3":"medicine",
+    "slot4":"engineering and science"
+  },
+  {
+    "name":"pointing fingers",
+    "slot1":"command and security",
+    "slot2":"diplomacy and command",
+    "slot3":"security",
+    "slot4":"command"
+  },
+  {
+    "name":"one after another",
+    "slot1":"command or engineering",
+    "slot2":"command",
+    "slot3":"science or command",
+    "slot4":"medicine or science",
+    "slot5":"medicine"
+  },
+  {
+    "name":"the way back",
+    "slot1":"command",
+    "slot2":"medicine and command",
+    "slot3":"science",
+    "slot4":"science and engineering"
+  },
+  {
+    "name":"i was like you",
+    "slot1":"diplomacy and command",
+    "slot2":"diplomacy and medicine",
+    "slot3":"engineering and science"
+  },
+  {
+    "name":"just in time",
+    "slot1":"command",
+    "slot2":"security",
+    "slot3":"engineering and science"
+  },
+  {
+    "name":"underground movement",
+    "slot1":"diplomacy and command",
+    "slot2":"engineering and command",
+    "slot3":"engineering",
+    "slot4":"diplomacy or command"
+  },
+  {
+    "name":"missing cargo",
+    "slot1":"security",
+    "slot2":"command",
+    "slot3":"engineering and security",
+    "slot4":"engineering"
+  },
+  {
+    "name":"a vocal ally",
+    "slot1":"security and command",
+    "slot2":"diplomacy and engineering",
+    "slot3":"diplomacy and command"
+  },
+  {
+    "name":"selective memory",
+    "slot1":"command",
+    "slot2":"diplomacy or science",
+    "slot3":"diplomacy",
+    "slot4":"medicine or science",
+    "slot5":"medicine"
+  },
+  {
+    "name":"false trails",
+    "slot1":"engineering and command",
+    "slot2":"security",
+    "slot3":"engineering or science",
+    "slot4":"engineering"
+  },
+  {
+    "name":"old habits",
+    "slot1":"security",
+    "slot2":"command and security",
+    "slot3":"science"
+  },
+  {
+    "name":"fire with fire",
+    "slot1":"engineering and diplomacy",
+    "slot2":"security and command",
+    "slot3":"security and command"
+  },
+  {
+    "name":"connecting the dots",
+    "slot1":"science or security",
+    "slot2":"security",
+    "slot3":"science and command",
+    "slot4":"science"
+  },
+  {
+    "name":"more like you",
+    "slot1":"science",
+    "slot2":"security and command",
+    "slot3":"science",
+    "slot4":"engineering"
+  },
+  {
+    "name":"disarmament",
+    "slot1":"engineering",
+    "slot2":"engineering and science",
+    "slot3":"security",
+    "slot4":"engineering and command",
+    "slot5":"science"
+  },
+  {
+    "name":"all's fair in business and war",
+    "slot1":"command and diplomacy",
+    "slot2":"command",
+    "slot3":"security and engineering",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"his old self",
+    "slot1":"command or engineering",
+    "slot2":"command",
+    "slot3":"medicine and diplomacy",
+    "slot4":"medicine"
+  },
+  {
+    "name":"a life for a life",
+    "slot1":"command and security",
+    "slot2":"diplomacy and command",
+    "slot3":"diplomacy",
+    "slot4":"security"
+  },
+  {
+    "name":"steady hands",
+    "slot1":"security",
+    "slot2":"command",
+    "slot3":"medicine or command",
+    "slot4":"medicine or science",
+    "slot5":"medicine"
+  },
+  {
+    "name":"like flies to honey",
+    "slot1":"diplomacy",
+    "slot2":"diplomacy and command",
+    "slot3":"security and command",
+    "slot4":"security"
+  },
+  {
+    "name":"flying under the radar",
+    "slot1":"security",
+    "slot2":"diplomacy and security",
+    "slot3":"engineering and command",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"an unstoppable force",
+    "slot1":"engineering or science",
+    "slot2":"command",
+    "slot3":"security",
+    "slot4":"security and science"
+  },
+  {
+    "name":"technological uniqueness",
+    "slot1":"medicine or science",
+    "slot2":"medicine",
+    "slot3":"security or command",
+    "slot4":"engineering and security",
+    "slot5":"engineering"
+  },
+  {
+    "name":"acceptable limits",
+    "slot1":"science",
+    "slot2":"medicine or command",
+    "slot3":"medicine and security",
+    "slot4":"medicine"
   },
   {
     "name":"mercy mission",
@@ -413,6 +768,52 @@
     "name":"backchannel diplomacy",
     "slot1":"diplomacy",
     "slot2":"diplomacy"
+  },
+  {
+    "name":"open new markets",
+    "slot1":"security and command",
+    "slot2":"diplomacy",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"outsource industry",
+    "slot1":"diplomacy",
+    "slot2":"security or diplomacy",
+    "slot3":"command"
+  },
+  {
+    "name":"procure technology",
+    "slot1":"science or engineering",
+    "slot2":"science or engineering",
+    "slot3":"security"
+  },
+  {
+    "name":"charter new companies",
+    "slot1":"engineering",
+    "slot2":"command",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"eliminate competitor",
+    "slot1":"engineering",
+    "slot2":"diplomacy or command",
+    "slot3":"security"
+  },
+  {
+    "name":"create ferengi clone",
+    "slot1":"science or engineering",
+    "slot2":"medicine"
+  },
+  {
+    "name":"withhold trading profits",
+    "slot1":"diplomacy or command",
+    "slot2":"science"
+  },
+  {
+    "name":"manipulate prices",
+    "slot1":"engineering or command",
+    "slot2":"diplomacy",
+    "slot3":"science"
   }
   ]
 }

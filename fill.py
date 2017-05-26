@@ -127,18 +127,18 @@ def assign_characters_to_missions(mission_name1, mission_name2, mission_name3, m
                                         pprint("New score: " + str(current_score))
                                     else:
                                         (current_mission,current_slot)=where_is_character_assigned(character,character_assignments)
-                                        slot_skill=find_slot_skill(mission['name'],skill,mission_data)
+                                        slot_skill=find_slot_skill(current_mission,current_slot,mission_data)
                                         new_character=find_available_character_with_skill(slot_skill,skills_by_character,character_assignments)
                                         character_assignments_test=deepcopy(character_assignments)
                                         character_assignments_test[mission['name']][skill]=character
                                         character_assignments_test[current_mission][current_slot]=new_character
                                         test_score=eval_mission_assignments(character_assignments_test,mission_data,character_data)
                                         if test_score > current_score:
+                                            pprint("placing " + new_character + "(" + slot_skill + ") in mission:" + current_mission + " slot: " + current_slot)
                                             pprint("replacing " + character_assignments[mission['name']][skill] + "(" + str(current_value) + ") with " + character + "(" + str(skill_value) + ") in mission: " + mission['name'] + " slot: " + skill)
                                             character_assignments[mission['name']][skill]=character
                                             character_assignments[current_mission][current_slot]=new_character
-                                            current_score=eval_mission_assignments(character_assignments,mission_data,character_data)
-                                            pprint("New score: " + str(current_score))
+                                            pprint("New score: " + str(test_score) + ", old score:" + str(current_score))
 
 
     return character_assignments
@@ -367,9 +367,13 @@ validate_characters(character_data)
 unfrozen_character_data=filter_frozen_characters(character_data)
 
 #this will run the search including frozen characters
-assignments=assign_characters_to_missions("event mission 1","event mission 2","event mission 3","event mission 4", mission_data, character_data)
-#assignments=assign_characters_to_missions("test officer loyalty","steal starfleet technology","summon mercenaries","influence commander", mission_data, character_data)
-#assignments=assign_characters_to_missions("steal eugenics research", "colonize new world", "quell dissent", "raid cold stations", mission_data, character_data)
+#assignments=assign_characters_to_missions("underground movement","fire with fire","connecting the dots","disarmament", mission_data, character_data)
+#assignments=assign_characters_to_missions("influence commander","configure mind-sifter","support alliance ally","summon mercenaries", mission_data, character_data)
+#assignments=assign_characters_to_missions("identify alphas","repair comm relay","revise holoprogram","negotiate hunting rights", mission_data, character_data)
+#assignments=assign_characters_to_missions("co-opt scientists","raid cold stations","colonize new world","steal eugenics research", mission_data, character_data)
+#assignments=assign_characters_to_missions("expose conspiracy","steal starfleet technology","intimidate colony","test officer loyalty", mission_data, character_data)
+#assignments=assign_characters_to_missions("support alliance ally","influence commander","summon mercenaries","configure mind-sifter", mission_data, character_data)
+assignments=assign_characters_to_missions("essential cargo","step by step","a higher caliber","a knife through butter", mission_data, unfrozen_character_data)
 
 
 #this will run the search excluding frozen characters
