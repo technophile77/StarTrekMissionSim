@@ -369,11 +369,16 @@ unfrozen_character_data=filter_frozen_characters(character_data)
 #this will run the search including frozen characters
 #assignments=assign_characters_to_missions("underground movement","fire with fire","connecting the dots","disarmament", mission_data, character_data)
 #assignments=assign_characters_to_missions("influence commander","configure mind-sifter","support alliance ally","summon mercenaries", mission_data, character_data)
-#assignments=assign_characters_to_missions("identify alphas","repair comm relay","revise holoprogram","negotiate hunting rights", mission_data, character_data)
+#assignments=assign_characters_to_missions("treat hirogen hunter","repair comm relay","revise holoprogram","negotiate hunting rights", mission_data, unfrozen_character_data)
 #assignments=assign_characters_to_missions("co-opt scientists","raid cold stations","colonize new world","steal eugenics research", mission_data, character_data)
 #assignments=assign_characters_to_missions("expose conspiracy","steal starfleet technology","intimidate colony","test officer loyalty", mission_data, character_data)
 #assignments=assign_characters_to_missions("support alliance ally","influence commander","summon mercenaries","configure mind-sifter", mission_data, character_data)
-assignments=assign_characters_to_missions("essential cargo","step by step","a higher caliber","a knife through butter", mission_data, unfrozen_character_data)
+#assignments=assign_characters_to_missions("essential cargo","deadlock","shortcuts","still holding on", mission_data, unfrozen_character_data)
+#assignments=assign_characters_to_missions("resettle refugees","evaluate sentient ai","hot dog","investigate corruption", mission_data, unfrozen_character_data)
+#assignments=assign_characters_to_missions("temporal agent daniels","uploading history","the temporal observatory","mccarthy's blacklist", mission_data, character_data)
+#assignments=assign_characters_to_missions("evaluate section 31 base","direct conspiracy","collect terran empire data","evade starfleet agents", mission_data, unfrozen_character_data)
+#assignments=assign_characters_to_missions("capture section 31 chief","aid terra prime rallies","intimidate colony","question section 31 spies", mission_data, unfrozen_character_data)
+assignments=assign_characters_to_missions("the providers' right hand","the best defense","signals and noise","under siege", mission_data, unfrozen_character_data)
 
 
 #this will run the search excluding frozen characters

@@ -21,6 +21,188 @@
     "slot3":"science"
   },
   {
+    "name":"tom paris, scholar",
+    "slot1":"medicine",
+    "slot2":"command and security",
+    "slot3":"security and engineering",
+    "slot4":"command and security"
+  },
+  {
+    "name":"urban jungle",
+    "slot1":"science",
+    "slot2":"security and engineering",
+    "slot3":"engineering and command",
+    "slot4":"science and command"
+  },
+  {
+    "name":"temporal agent daniels",
+    "slot1":"command and diplomacy",
+    "slot2":"command and security",
+    "slot3":"security and engineering",
+    "slot4":"security"
+  },
+  {
+    "name":"emergency retrofit",
+    "slot1":"science",
+    "slot2":"engineering",
+    "slot3":"engineering"
+  },
+  {
+    "name":"temporal revenge",
+    "slot1":"science",
+    "slot2":"diplomacy or command",
+    "slot3":"command",
+    "slot4":"security or command",
+    "slot5":"diplomacy"
+  },
+  {
+    "name":"cultural preservation",
+    "slot1":"command and security",
+    "slot2":"security or science"
+  },
+  {
+    "name":"media blackout",
+    "slot1":"command and diplomacy",
+    "slot2":"science and diplomacy",
+    "slot3":"engineering",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"saving communism",
+    "slot1":"science and security",
+    "slot2":"command",
+    "slot3":"medicine and security"
+  },
+  {
+    "name":"most wanted",
+    "slot1":"command",
+    "slot2":"diplomacy and command",
+    "slot3":"security",
+    "slot4":"medicine and command"
+  },
+  {
+    "name":"crash course",
+    "slot1":"diplomacy and science",
+    "slot2":"command and diplomacy",
+    "slot3":"engineering",
+    "slot4":"science"
+  },
+  {
+    "name":"the temporal observatory",
+    "slot1":"command and science",
+    "slot2":"science and security"
+  },
+  {
+    "name":"uploading history",
+    "slot1":"command",
+    "slot2":"engineering or medicine",
+    "slot3":"science or medicine",
+    "slot4":"medicine",
+    "slot5":"engineering or command"
+  },
+  {
+    "name":"keeler memorial mission",
+    "slot1":"command and diplomacy",
+    "slot2":"security and command",
+    "slot3":"security",
+    "slot4":"diplomacy and security"
+  },
+  {
+    "name":"dogfight!",
+    "slot1":"diplomacy",
+    "slot2":"diplomacy or command",
+    "slot3":"security",
+    "slot4":"security or engineering",
+    "slot5":"command and diplomacy"
+  },
+  {
+    "name":"uniquely qualified",
+    "slot1":"science or medicine",
+    "slot2":"engineering and command",
+    "slot3":"command",
+    "slot4":"engineering"
+  },
+  {
+    "name":"rescuing roosevelt",
+    "slot1":"diplomacy",
+    "slot2":"command or security",
+    "slot3":"command",
+    "slot4":"security and engineering",
+    "slot5":"security"
+  },
+  {
+    "name":"illusory strategy",
+    "slot1":"security and command",
+    "slot2":"engineering",
+    "slot3":"command or engineering",
+    "slot4":"diplomacy or command",
+    "slot5":"science"
+  },
+  {
+    "name":"a lesser apocalypse",
+    "slot1":"diplomacy and science",
+    "slot2":"security and diplomacy",
+    "slot3":"diplomacy",
+    "slot4":"command and security"
+  },
+  {
+    "name":"mccarthy's blacklist",
+    "slot1":"command and science",
+    "slot2":"security and engineering",
+    "slot3":"diplomacy and command"
+  },
+  {
+    "name":"midwestern guard",
+    "slot1":"medicine",
+    "slot2":"engineering",
+    "slot3":"command and security",
+    "slot4":"security",
+    "slot5":"security"
+  },
+  {
+    "name":"causes and motivations",
+    "slot1":"security",
+    "slot2":"diplomacy"
+  },
+  {
+    "name":"conduit to never",
+    "slot1":"security or engineering",
+    "slot2":"command and security",
+    "slot3":"engineering"
+  },
+  {
+    "name":"little green men",
+    "slot1":"medicine or security",
+    "slot2":"security and command"
+  },
+  {
+    "name":"le coeur de lion",
+    "slot1":"security and command",
+    "slot2":"diplomacy and command",
+    "slot3":"command",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"the fuhrer's fall",
+    "slot1":"security and command",
+    "slot2":"security",
+    "slot3":"security"
+  },
+  {
+    "name":"deadlock",
+    "slot1":"diplomacy and security",
+    "slot2":"diplomacy",
+    "slot3":"command and diplomacy",
+    "slot4":"engineering"
+  },
+  {
+    "name":"closing in",
+    "slot1":"security",
+    "slot2":"engineering and command",
+    "slot3":"engineering or science",
+    "slot4":"engineering or science"
+  },
+  {
     "name":"essential cargo",
     "slot1":"engineering and command",
     "slot2":"engineering or security",
@@ -41,12 +223,41 @@
     "slot3":"engineering and diplomacy"
   },
   {
+    "name":"fit for duty",
+    "slot1":"diplomacy and command",
+    "slot2":"command and medicine",
+    "slot3":"medicine",
+    "slot4":"command"
+  },
+  {
+    "name":"closed lines",
+    "slot1":"command and security",
+    "slot2":"diplomacy and command",
+    "slot3":"diplomacy and science"
+  },
+  {
     "name":"into the depths",
     "slot1":"security",
     "slot2":"command or security",
     "slot3":"science or command",
     "slot4":"diplomacy or security",
     "slot5":"diplomacy"
+  },
+  {
+    "name":"respite",
+    "slot1":"command or engineering",
+    "slot2":"command",
+    "slot3":"security or command",
+    "slot4":"engineering or security",
+    "slot5":"diplomacy"
+  },
+  {
+    "name":"still holding on",
+    "slot1":"medicine or security",
+    "slot2":"medicine or security",
+    "slot3":"command or medicine",
+    "slot4":"medicine",
+    "slot5":"medicine"
   },
   {
     "name":"buried alive",
@@ -335,11 +546,102 @@
   },
   {
     "name":"steady hands",
-    "slot1":"security",
+    "slot1":"command or diplomacy",
     "slot2":"command",
-    "slot3":"medicine or command",
-    "slot4":"medicine or science",
-    "slot5":"medicine"
+    "slot3":"science and diplomacy",
+    "slot4":"security",
+    "slot5":"diplomacy"
+  },
+  {
+    "name":"signals and noise",
+    "slot1":"security and command",
+    "slot2":"science and engineering"
+  },
+  {
+    "name":"raise the stakes",
+    "slot1":"security and command",
+    "slot2":"command",
+    "slot3":"diplomacy or command",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"equine issues",
+    "slot1":"medicine or diplomacy",
+    "slot2":"medicine or science"
+  },
+  {
+    "name":"endurance",
+    "slot1":"science and diplomacy",
+    "slot2":"medicine or command",
+    "slot3":"medicine"
+  },
+  {
+    "name":"swords for hire",
+    "slot1":"command and security",
+    "slot2":"diplomacy or security",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"thesis statement",
+    "slot1":"security and command",
+    "slot2":"command",
+    "slot3":"diplomacy or engineering",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"rallying cry",
+    "slot1":"science and engineering",
+    "slot2":"security",
+    "slot3":"security and command",
+    "slot4":"command"
+  },
+  {
+    "name":"knock-out",
+    "slot1":"security and command",
+    "slot2":"command",
+    "slot3":"science and engineering",
+    "slot4":"engineering"
+  },
+  {
+    "name":"equine issues",
+    "slot1":"medicine or diplomacy",
+    "slot2":"medicine or science"
+  },
+  {
+    "name":"a warrior's drink",
+    "slot1":"diplomacy",
+    "slot2":"science and diplomacy",
+    "slot3":"diplomacy or engineering",
+    "slot4":"security and command"
+  },
+  {
+    "name":"en garde",
+    "slot1":"security and command",
+    "slot2":"engineering and science",
+    "slot3":"engineering",
+    "slot4":"engineering or science"
+  },
+  {
+    "name":"under siege",
+    "slot1":"science",
+    "slot2":"engineering",
+    "slot3":"security or command",
+    "slot4":"security",
+    "slot5":"security and command"
+  },
+  {
+    "name":"the best defense",
+    "slot1":"security",
+    "slot2":"command or engineering",
+    "slot3":"command or science",
+    "slot4":"science",
+    "slot5":"engineering"
+  },
+  {
+    "name":"lighter entertainment",
+    "slot1":"science",
+    "slot2":"diplomacy and command",
+    "slot3":"diplomacy"
   },
   {
     "name":"like flies to honey",
@@ -400,6 +702,168 @@
     "slot1":"security",
     "slot2":"engineering",
     "slot3":"science"
+  },
+  {
+    "name":"recruit starfleet members",
+    "slot1":"command or diplomacy",
+    "slot2":"command or diplomacy",
+    "slot3":"command or diplomacy"
+  },
+  {
+    "name":"arrest rally leaders",
+    "slot1":"security or diplomacy",
+    "slot2":"command",
+    "slot3":"security"
+  },
+  {
+    "name":"direct conspiracy",
+    "slot1":"engineering",
+    "slot2":"science",
+    "slot3":"command or science"
+  },
+  {
+    "name":"blackmail smiley o'brien",
+    "slot1":"engineering",
+    "slot2":"diplomacy or engineering",
+    "slot3":"security and engineering",
+    "slot4":"diplomacy or security"
+  },
+  {
+    "name":"sisko's self approval",
+    "slot1":"diplomacy",
+    "slot2":"diplomacy",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"take terran empire devices",
+    "slot1":"diplomacy",
+    "slot2":"engineering",
+    "slot3":"security",
+    "slot4":"security"
+  },
+  {
+    "name":"collect terran empire data",
+    "slot1":"science",
+    "slot2":"engineering or science",
+    "slot3":"command and engineering"
+  },
+  {
+    "name":"an honest fight",
+    "slot1":"science and engineering",
+    "slot2":"security or engineering",
+    "slot3":"command",
+    "slot4":"security and command"
+  },
+  {
+    "name":"too good to be true",
+    "slot1":"diplomacy and command",
+    "slot2":"command",
+    "slot3":"science or engineering"
+  },
+  {
+    "name":"polished steel",
+    "slot1":"security and diplomacy",
+    "slot2":"security and command"
+  },
+  {
+    "name":"hospitality",
+    "slot1":"engineering",
+    "slot2":"security and diplomacy",
+    "slot3":"science",
+    "slot4":"command and security"
+  },
+  {
+    "name":"the providers' right hand",
+    "slot1":"science and diplomacy",
+    "slot2":"security or command",
+    "slot3":"diplomacy",
+    "slot4":"security and command"
+  },
+  {
+    "name":"deeds worthy of legend",
+    "slot1":"science and diplomacy",
+    "slot2":"command",
+    "slot3":"diplomacy and command"
+  },
+  {
+    "name":"reluctant rider",
+    "slot1":"diplomacy or science",
+    "slot2":"science"
+  },
+  {
+    "name":"metal and bone",
+    "slot1":"security and command",
+    "slot2":"command",
+    "slot3":"science and engineering",
+    "slot4":"medicine or science",
+    "slot5":"medicine"
+  },
+  {
+    "name":"equal footing",
+    "slot1":"science",
+    "slot2":"engineering and science",
+    "slot3":"security and diplomacy",
+    "slot4":"security and command"
+  },
+  {
+    "name":"beverage of champions",
+    "slot1":"command",
+    "slot2":"diplomacy and command",
+    "slot3":"medicine or science",
+    "slot4":"science and engineering"
+  },
+  {
+    "name":"the rule book",
+    "slot1":"diplomacy and command",
+    "slot2":"diplomacy and science"
+  },
+  {
+    "name":"too much to lose",
+    "slot1":"command or diplomacy",
+    "slot2":"security and command",
+    "slot3":"command",
+    "slot4":"diplomacy",
+    "slot5":"science or engineering"
+  },
+  {
+    "name":"the proper attire",
+    "slot1":"security",
+    "slot2":"engineering or science",
+    "slot3":"engineering",
+    "slot4":"engineering and science"
+  },
+  {
+    "name":"thesis statement",
+    "slot1":"security and command",
+    "slot2":"command",
+    "slot3":"diplomacy or engineering",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"capture section 31 chief",
+    "slot1":"security and science",
+    "slot2":"command and security",
+    "slot3":"diplomacy and command"
+  },
+  {
+    "name":"aid terra prime rallies",
+    "slot1":"security",
+    "slot2":"diplomacy",
+    "slot3":"medicine",
+    "slot4":"command"
+  },
+  {
+    "name":"question section 31 spies",
+    "slot1":"medicine",
+    "slot2":"security",
+    "slot3":"security",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"evaluate section 31 base",
+    "slot1":"engineering",
+    "slot2":"engineering",
+    "slot3":"security"
   },
   {
     "name":"sector reconnaissance",
@@ -570,7 +1034,7 @@
     "name":"evaluate sentient ai",
     "slot1":"engineering",
     "slot2":"science",
-    "slot3":"command"
+    "slot3":"security"
   },
   {
     "name":"federation diplomacy",
