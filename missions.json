@@ -1,6 +1,63 @@
 {"missions":
   [
   {
+    "name":"burden of proof",
+    "slot1":"command and security",
+    "slot2":"science",
+    "slot3":"science or security"
+  },
+  {
+    "name":"elixir",
+    "slot1":"diplomacy and command",
+    "slot2":"medicine",
+    "slot3":"science",
+    "slot4":"science and diplomacy"
+  },
+  {
+    "name":"retaliation",
+    "slot1":"science",
+    "slot2":"command and security",
+    "slot3":"security",
+    "slot4":"command",
+    "slot5":"diplomacy and command"
+  },
+  {
+    "name":"eyewitness accounts",
+    "slot1":"command and diplomacy",
+    "slot2":"diplomacy and security"
+  },
+  {
+    "name":"the smoking gun",
+    "slot1":"security or command",
+    "slot2":"security"
+  },
+  {
+    "name":"turncoat",
+    "slot1":"science",
+    "slot2":"diplomacy and command",
+    "slot3":"diplomacy and security",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"panic room",
+    "slot1":"diplomacy and science",
+    "slot2":"security and command"
+  },
+  {
+    "name":"crying wolf",
+    "slot1":"diplomacy and science",
+    "slot2":"engineering",
+    "slot3":"security",
+    "slot4":"diplomacy and command"
+  },
+  {
+    "name":"the mind's eye",
+    "slot1":"diplomacy and command",
+    "slot2":"security and diplomacy",
+    "slot3":"science",
+    "slot4":"diplomacy"
+  },
+  {
     "name":"event mission 1",
     "slot1":"command",
     "slot2":"engineering and command",
@@ -491,9 +548,45 @@
   },
   {
     "name":"old habits",
-    "slot1":"security",
+    "slot1":"security and command",
+    "slot2":"diplomacy and science",
+    "slot3":"security and command",
+    "slot4":"engineering",
+    "slot5":"security"
+  },
+  {
+    "name":"tell no tales",
+    "slot1":"diplomacy and command",
+    "slot2":"science",
+    "slot3":"medicine"
+  },
+  {
+    "name":"scientific bias",
+    "slot1":"command and diplomacy",
     "slot2":"command and security",
-    "slot3":"science"
+    "slot3":"medicine or science",
+    "slot4":"diplomacy",
+    "slot5":"diplomacy and science"
+  },
+  {
+    "name":"a worthy fight",
+    "slot1":"command and security",
+    "slot2":"security",
+    "slot3":"command and diplomacy",
+    "slot4":"diplomacy and science"
+  },
+  {
+    "name":"expose terran atrocities",
+    "slot1":"diplomacy",
+    "slot2":"diplomacy",
+    "slot3":"command"
+  },
+  {
+    "name":"research u.s.s. chavez",
+    "slot1":"engineering",
+    "slot2":"science",
+    "slot3":"security",
+    "slot4":"command"
   },
   {
     "name":"fire with fire",
@@ -615,6 +708,236 @@
     "slot4":"security and command"
   },
   {
+    "name":"steal klingon cargo",
+    "slot1":"command",
+    "slot2":"science"
+  },
+  {
+    "name":"enhance crew member",
+    "slot1":"medicine",
+    "slot2":"command"
+  },
+  {
+    "name":"free augment comrades",
+    "slot1":"security",
+    "slot2":"engineering or command"
+  },
+  {
+    "name":"lursa's son",
+    "slot1":"medicine",
+    "slot2":"diplomacy"
+  },
+  {
+    "name":"capture jennifer sisko",
+    "slot1":"security",
+    "slot2":"command and security",
+    "slot3":"command and diplomacy"
+  },
+  {
+    "name":"denounce section 31",
+    "slot1":"security",
+    "slot2":"security",
+    "slot3":"diplomacy or command",
+    "slot4":"diplomacy and command"
+  },
+  {
+    "name":"capture terran empire vip",
+    "slot1":"engineering or science",
+    "slot2":"diplomacy and security"
+  },
+  {
+    "name":"intelligence mission",
+    "slot1":"engineering and command",
+    "slot2":"science",
+    "slot3":"security",
+    "slot4":"security"
+  },
+  {
+    "name":"impersonate vulcans",
+    "slot1":"command",
+    "slot2":"science",
+    "slot3":"science",
+    "slot4":"diplomacy",
+    "slot5":"diplomacy"
+  },
+  {
+    "name":"meet tal shiar agent",
+    "slot1":"science or command",
+    "slot2":"diplomacy",
+    "slot3":"diplomacy",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"escort senatorial party",
+    "slot1":"engineering or science",
+    "slot2":"diplomacy",
+    "slot3":"security"
+  },
+  {
+    "name":"neutral zone survey",
+    "slot1":"security or diplomacy",
+    "slot2":"command",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"eliminate suspects",
+    "slot1":"security or command",
+    "slot2":"security",
+    "slot3":"security"
+  },
+  {
+    "name":"embed maquis in starfleet",
+    "slot1":"science or medicine",
+    "slot2":"engineering or security",
+    "slot3":"diplomacy",
+    "slot4":"command"
+  },
+  {
+    "name":"poach defectors",
+    "slot1":"command or security",
+    "slot2":"security",
+    "slot3":"diplomacy",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"save sherman's planet",
+    "slot1":"science and engineering",
+    "slot2":"science and security"
+  },
+  {
+    "name":"stop kirk's assassination",
+    "slot1":"command and security",
+    "slot2":"security and science"
+  },
+  {
+    "name":"reclaim archanis sector",
+    "slot1":"security and command",
+    "slot2":"science and engineering",
+    "slot3":"security",
+    "slot4":"security and command"
+  },
+  {
+    "name":"stop dilithium pirates",
+    "slot1":"command",
+    "slot2":"security and science",
+    "slot3":"command",
+    "slot4":"security and command",
+    "slot5":"security"
+  },
+  {
+    "name":"resolve hostage situation",
+    "slot1":"command",
+    "slot2":"science and diplomacy",
+    "slot3":"diplomacy and command",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"keep v'ger free",
+    "slot1":"medicine",
+    "slot2":"diplomacy or security",
+    "slot3":"command and diplomacy",
+    "slot4":"security",
+    "slot5":"security"
+  },
+  {
+    "name":"rescue bashir and o'brien",
+    "slot1":"security and command",
+    "slot2":"security and diplomacy",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"help steal ship",
+    "slot1":"security",
+    "slot2":"engineering",
+    "slot3":"diplomacy or security"
+  },
+  {
+    "name":"resolve praxis anger",
+    "slot1":"command",
+    "slot2":"security",
+    "slot3":"science and engineering",
+    "slot4":"engineering or command",
+    "slot5":"engineering"
+  },
+  {
+    "name":"end sybok's war games",
+    "slot1":"security and command",
+    "slot2":"command and security",
+    "slot3":"science and command",
+    "slot4":"science"
+  },
+  {
+    "name":"stop kor's invasion",
+    "slot1":"security and command",
+    "slot2":"security and diplomacy"
+  },
+  {
+    "name":"silence beta xii-a entity",
+    "slot1":"diplomacy and command",
+    "slot2":"command",
+    "slot3":"diplomacy",
+    "slot4":"diplomacy and science"
+  },
+  {
+    "name":"eliminate tribble menace",
+    "slot1":"science and engineering",
+    "slot2":"science and security"
+  },
+  {
+    "name":"declare neural winner",
+    "slot1":"command and security",
+    "slot2":"science and command",
+    "slot3":"diplomacy and command",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"the blockade of donatu v",
+    "slot1":"command",
+    "slot2":"security and science",
+    "slot3":"diplomacy and security",
+    "slot4":"security"
+  },
+  {
+    "name":"locate genesis device",
+    "slot1":"security and command",
+    "slot2":"science and engineering",
+    "slot3":"diplomacy and command"
+  },
+  {
+    "name":"save curzon dax",
+    "slot1":"diplomacy and command",
+    "slot2":"engineering and command",
+    "slot3":"science"
+  },
+  {
+    "name":"prevent valkris's suicide",
+    "slot1":"medicine and diplomacy",
+    "slot2":"security and command",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"save chancellor gorkon",
+    "slot1":"science",
+    "slot2":"diplomacy and command",
+    "slot3":"command or security",
+    "slot4":"security",
+    "slot5":"security"
+  },
+  {
+    "name":"save praxis explorers",
+    "slot1":"diplomacy",
+    "slot2":"science and engineering",
+    "slot3":"engineering and command",
+    "slot4":"engineering"
+  },
+  {
+    "name":"prove khitomer accords",
+    "slot1":"science and diplomacy",
+    "slot2":"security and command",
+    "slot3":"diplomacy",
+    "slot4":"diplomacy"
+  },
+  {
     "name":"en garde",
     "slot1":"security and command",
     "slot2":"engineering and science",
@@ -628,6 +951,216 @@
     "slot3":"security or command",
     "slot4":"security",
     "slot5":"security and command"
+  },
+  {
+    "name":"study badlands storms",
+    "slot1":"medicine",
+    "slot2":"science",
+    "slot3":"science",
+    "slot4":"command"
+  },
+  {
+    "name":"denounce teero anaydis",
+    "slot1":"security",
+    "slot2":"diplomacy or security",
+    "slot3":"command"
+  },
+  {
+    "name":"find maquis families",
+    "slot1":"security or diplomacy",
+    "slot2":"command and security"
+  },
+  {
+    "name":"sabotage rebuilding efforts",
+    "slot1":"engineering or science",
+    "slot2":"security",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"conduct secret raid",
+    "slot1":"diplomacy or security",
+    "slot2":"diplomacy or security",
+    "slot3":"diplomacy or security"
+  },
+  {
+    "name":"assist in supply raid",
+    "slot1":"security",
+    "slot2":"command or security"
+  },
+  {
+    "name":"sabotage cardassians",
+    "slot1":"security or science",
+    "slot2":"engineering",
+    "slot3":"command"
+  },
+  {
+    "name":"chart minefield",
+    "slot1":"diplomacy or command",
+    "slot2":"engineering",
+    "slot3":"security",
+    "slot4":"security"
+  },
+  {
+    "name":"hijack romulan ship",
+    "slot1":"diplomacy and command",
+    "slot2":"command",
+    "slot3":"engineering",
+    "slot4":"engineering"
+  },
+  {
+    "name":"probe temporal rift",
+    "slot1":"science and engineering",
+    "slot2":"science",
+    "slot3":"science",
+    "slot4":"engineering"
+  },
+  {
+    "name":"provide medical assistance",
+    "slot1":"medicine",
+    "slot2":"medicine",
+    "slot3":"command"
+  },
+  {
+    "name":"convince maquis of aid",
+    "slot1":"medicine",
+    "slot2":"security",
+    "slot3":"diplomacy",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"oversee bajoran aid",
+    "slot1":"diplomacy",
+    "slot2":"security",
+    "slot3":"security"
+  },
+  {
+    "name":"make it personal",
+    "slot1":"science",
+    "slot2":"diplomacy and command",
+    "slot3":"diplomacy and security"
+  },
+  {
+    "name":"neutral ground",
+    "slot1":"diplomacy and command",
+    "slot2":"security and command"
+  },
+  {
+    "name":"a drink among friends",
+    "slot1":"diplomacy and science",
+    "slot2":"medicine",
+    "slot3":"medicine or science",
+    "slot4":"science"
+  },
+  {
+    "name":"collateral damage",
+    "slot1":"command or medicine",
+    "slot2":"medicine or diplomacy"
+  },
+  {
+    "name":"eye to eye",
+    "slot1":"security or command",
+    "slot2":"diplomacy",
+    "slot3":"science and command",
+    "slot4":"engineering",
+    "slot5":"science and diplomacy"
+  },
+  {
+    "name":"dry eyes",
+    "slot1":"science or medicine",
+    "slot2":"science and command",
+    "slot3":"command and diplomacy"
+  },
+  {
+    "name":"chain of command",
+    "slot1":"diplomacy and security",
+    "slot2":"command",
+    "slot3":"command and security"
+  },
+  {
+    "name":"a higher price",
+    "slot1":"science and engineering",
+    "slot2":"science and command"
+  },
+  {
+    "name":"team rivalry",
+    "slot1":"command or security",
+    "slot2":"diplomacy",
+    "slot3":"security",
+    "slot4":"diplomacy and command"
+  },
+  {
+    "name":"formalities",
+    "slot1":"diplomacy and science",
+    "slot2":"diplomacy and command",
+    "slot3":"command and security",
+    "slot4":"diplomacy and security"
+  },
+  {
+    "name":"a higher price",
+    "slot1":"science and engineering",
+    "slot2":"science and command"
+  },
+  {
+    "name":"sticks and stones",
+    "slot1":"diplomacy or security",
+    "slot2":"command",
+    "slot3":"diplomacy and science"
+  },
+  {
+    "name":"lighter terms",
+    "slot1":"command",
+    "slot2":"science and engineering",
+    "slot3":"engineering or diplomacy",
+    "slot4":"security or diplomacy",
+    "slot5":"engineering"
+  },
+  {
+    "name":"the dohlman of elas",
+    "slot1":"command",
+    "slot2":"science and diplomacy",
+    "slot3":"security or command",
+    "slot4":"command",
+    "slot5":"diplomacy"
+  },
+  {
+    "name":"serving their time",
+    "slot1":"command",
+    "slot2":"command and science",
+    "slot3":"medicine or command",
+    "slot4":"science and diplomacy",
+    "slot5":"diplomacy or medicine"
+  },
+  {
+    "name":"the cost of travel",
+    "slot1":"science",
+    "slot2":"command or security",
+    "slot3":"engineering and security",
+    "slot4":"engineering"
+  },
+  {
+    "name":"hero complex",
+    "slot1":"security and command",
+    "slot2":"command and science",
+    "slot3":"science and engineering",
+    "slot4":"command"
+  },
+  {
+    "name":"find maquis smuggler",
+    "slot1":"security",
+    "slot2":"diplomacy or security",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"scout cardassian targets",
+    "slot1":"security or science",
+    "slot2":"security or science",
+    "slot3":"command"
+  },
+  {
+    "name":"recruit for maquis",
+    "slot1":"diplomacy or security",
+    "slot2":"command or diplomacy",
+    "slot3":"command and diplomacy"
   },
   {
     "name":"the best defense",
@@ -722,11 +1255,525 @@
     "slot3":"command or science"
   },
   {
+    "name":"terran empire deep cover",
+    "slot1":"diplomacy",
+    "slot2":"engineering and security",
+    "slot3":"command and security"
+  },
+  {
+    "name":"lure mirror hoshi back",
+    "slot1":"security",
+    "slot2":"command",
+    "slot3":"diplomacy",
+    "slot4":"security"
+  },
+  {
+    "name":"recruit federation vassals",
+    "slot1":"diplomacy and science",
+    "slot2":"diplomacy and security",
+    "slot3":"diplomacy and command"
+  },
+  {
+    "name":"inspect empire outpost",
+    "slot1":"diplomacy or medicine",
+    "slot2":"science",
+    "slot3":"engineering or security",
+    "slot4":"command"
+  },
+  {
+    "name":"develop changeling scanner",
+    "slot1":"science or engineering",
+    "slot2":"engineering",
+    "slot3":"science",
+    "slot4":"science"
+  },
+  {
+    "name":"track dominion warship",
+    "slot1":"diplomacy or command",
+    "slot2":"security",
+    "slot3":"security"
+  },
+  {
+    "name":"destroy sphere",
+    "slot1":"science or engineering",
+    "slot2":"science or engineering",
+    "slot3":"science",
+    "slot4":"science"
+  },
+  {
+    "name":"locate jem'hadar nursery",
+    "slot1":"diplomacy and command",
+    "slot2":"engineering",
+    "slot3":"science",
+    "slot4":"science"
+  },
+  {
+    "name":"screen hirogen blood",
+    "slot1":"science or medicine",
+    "slot2":"security",
+    "slot3":"diplomacy",
+    "slot4":"medicine"
+  },
+  {
+    "name":"organize hirogen defense",
+    "slot1":"diplomacy or command",
+    "slot2":"command",
+    "slot3":"security",
+    "slot4":"security"
+  },
+  {
+    "name":"arbitrate trophy dispute",
+    "slot1":"diplomacy or command",
+    "slot2":"security",
+    "slot3":"security",
+    "slot4":"diplomacy",
+    "slot5":"diplomacy"
+  },
+  {
+    "name":"comparative literature",
+    "slot1":"security and command",
+    "slot2":"engineering and security",
+    "slot3":"medicine",
+    "slot4":"science"
+  },
+  {
+    "name":"stronger than sickness",
+    "slot1":"security",
+    "slot2":"diplomacy and security",
+    "slot3":"science",
+    "slot4":"diplomacy and command",
+    "slot5":"diplomacy"
+  },
+  {
+    "name":"field tests",
+    "slot1":"medicine or command",
+    "slot2":"engineering or security"
+  },
+  {
+    "name":"monstrous migration",
+    "slot1":"command and security",
+    "slot2":"security and engineering",
+    "slot3":"security or science",
+    "slot4":"command"
+  },
+  {
+    "name":"friendly terrain",
+    "slot1":"command",
+    "slot2":"security",
+    "slot3":"command or science"
+  },
+  {
+    "name":"by hoof and by claw",
+    "slot1":"security or science",
+    "slot2":"command and security",
+    "slot3":"security"
+  },
+  {
+    "name":"friendly terrain",
+    "slot1":"command",
+    "slot2":"security",
+    "slot3":"command or science"
+  },
+  {
+    "name":"a far worse fate",
+    "slot1":"diplomacy or command",
+    "slot2":"medicine",
+    "slot3":"diplomacy and security"
+  },
+  {
+    "name":"from mortals to monsters",
+    "slot1":"diplomacy and engineering",
+    "slot2":"security",
+    "slot3":"command and security",
+    "slot4":"science or medicine"
+  },
+  {
+    "name":"earthbreaker",
+    "slot1":"security",
+    "slot2":"science and diplomacy",
+    "slot3":"science",
+    "slot4":"engineering"
+  },
+  {
+    "name":"spawning point",
+    "slot1":"science or medicine",
+    "slot2":"engineering"
+  },
+  {
+    "name":"out to pasture",
+    "slot1":"security",
+    "slot2":"command and security",
+    "slot3":"medicine and diplomacy",
+    "slot4":"medicine"
+  },
+  {
+    "name":"not the monster he seems",
+    "slot1":"diplomacy",
+    "slot2":"science or security",
+    "slot3":"engineering or command",
+    "slot4":"security",
+    "slot5":"security and command"
+  },
+  {
+    "name":"giving chase",
+    "slot1":"medicine and command",
+    "slot2":"medicine or command"
+  },
+  {
+    "name":"doctors wanted",
+    "slot1":"security and diplomacy",
+    "slot2":"command and security",
+    "slot3":"science",
+    "slot4":"engineering and diplomacy",
+    "slot5":"security"
+  },
+  {
+    "name":"something in the water",
+    "slot1":"security",
+    "slot2":"security and command",
+    "slot3":"engineering and security",
+    "slot4":"command and diplomacy",
+    "slot5":"science"
+  },
+  {
+    "name":"leave of absence",
+    "slot1":"diplomacy and security",
+    "slot2":"security and command",
+    "slot3":"diplomacy",
+    "slot4":"diplomacy and command"
+  },
+  {
+    "name":"from the gates of grethor",
+    "slot1":"security and diplomacy",
+    "slot2":"command",
+    "slot3":"security",
+    "slot4":"security or engineering",
+    "slot5":"engineering"
+  },
+  {
+    "name":"no answer",
+    "slot1":"security and command",
+    "slot2":"science or engineering",
+    "slot3":"engineering"
+  },
+  {
+    "name":"the killing blow",
+    "slot1":"security",
+    "slot2":"diplomacy or command",
+    "slot3":"security and diplomacy",
+    "slot4":"diplomacy and engineering"
+  },
+  {
+    "name":"signs of apocalypse",
+    "slot1":"security and command",
+    "slot2":"command or science",
+    "slot3":"diplomacy",
+    "slot4":"science"
+  },
+  {
+    "name":"monster trading",
+    "slot1":"diplomacy and command",
+    "slot2":"diplomacy and security"
+  },
+  {
+    "name":"the tyrant's new clothes",
+    "slot1":"diplomacy and security",
+    "slot2":"security",
+    "slot3":"security and command"
+  },
+  {
+    "name":"rewriting history",
+    "slot1":"diplomacy and command",
+    "slot2":"diplomacy"
+  },
+  {
+    "name":"redemption",
+    "slot1":"security and engineering",
+    "slot2":"diplomacy or command",
+    "slot3":"security and diplomacy",
+    "slot4":"security"
+  },
+  {
+    "name":"cracks in the walls",
+    "slot1":"command and security",
+    "slot2":"security and engineering"
+  },
+  {
+    "name":"one of their own",
+    "slot1":"medicine or security",
+    "slot2":"security"
+  },
+  {
+    "name":"state your business",
+    "slot1":"diplomacy",
+    "slot2":"diplomacy and command"
+  },
+  {
+    "name":"psychological suggestion",
+    "slot1":"diplomacy and security",
+    "slot2":"engineering and security",
+    "slot3":"science and command",
+    "slot4":"science or engineering",
+    "slot5":"security"
+  },
+  {
+    "name":"stone-shifter",
+    "slot1":"engineering and security",
+    "slot2":"diplomacy or science",
+    "slot3":"security and command",
+    "slot4":"diplomacy and security"
+  },
+  {
+    "name":"traitors",
+    "slot1":"diplomacy and security",
+    "slot2":"security and diplomacy",
+    "slot3":"diplomacy or medicine",
+    "slot4":"science",
+    "slot5":"medicine"
+  },
+  {
+    "name":"a glimmer of hope",
+    "slot1":"security and command",
+    "slot2":"security and diplomacy",
+    "slot3":"diplomacy",
+    "slot4":"engineering or science"
+  },
+  {
+    "name":"it runs in the family",
+    "slot1":"engineering or security",
+    "slot2":"security and diplomacy",
+    "slot3":"diplomacy",
+    "slot4":"medicine"
+  },
+  {
+    "name":"essential ingredients",
+    "slot1":"science or security",
+    "slot2":"security",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"blood will out",
+    "slot1":"security and diplomacy",
+    "slot2":"medicine",
+    "slot3":"command or diplomacy",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"breaking the chain",
+    "slot1":"security",
+    "slot2":"diplomacy",
+    "slot3":"medicine or diplomacy",
+    "slot4":"medicine"
+  },
+  {
+    "name":"pulling the strings",
+    "slot1":"security or command",
+    "slot2":"security",
+    "slot3":"engineering and security"
+  },
+  {
+    "name":"escape route",
+    "slot1":"security",
+    "slot2":"security and engineering",
+    "slot3":"science or command",
+    "slot4":"science"
+  },
+  {
+    "name":"bird's-eye view",
+    "slot1":"command and security",
+    "slot2":"diplomacy",
+    "slot3":"security and engineering",
+    "slot4":"security and diplomacy"
+  },
+  {
+    "name":"fishing trip",
+    "slot1":"diplomacy and engineering",
+    "slot2":"security or science",
+    "slot3":"security and command",
+    "slot4":"security and command",
+    "slot5":"command"
+  },
+  {
+    "name":"claws in the dark",
+    "slot1":"diplomacy or security",
+    "slot2":"diplomacy",
+    "slot3":"medicine"
+  },
+  {
+    "name":"captive quarry",
+    "slot1":"security and command",
+    "slot2":"engineering and security"
+  },
+  {
     "name":"blackmail smiley o'brien",
     "slot1":"engineering",
     "slot2":"diplomacy or engineering",
     "slot3":"security and engineering",
     "slot4":"diplomacy or security"
+  },
+  {
+    "name":"dethrone beowulf king",
+    "slot1":"medicine or command",
+    "slot2":"engineering",
+    "slot3":"science and security",
+    "slot4":"security",
+    "slot5":"command and security"
+  },
+  {
+    "name":"causing trouble",
+    "slot1":"engineering",
+    "slot2":"command and diplomacy",
+    "slot3":"diplomacy",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"one million credits",
+    "slot1":"command",
+    "slot2":"command and security",
+    "slot3":"security",
+    "slot4":"diplomacy and command"
+  },
+  {
+    "name":"the voyager encounter",
+    "slot1":"command and diplomacy",
+    "slot2":"security",
+    "slot3":"security",
+    "slot4":"security and command"
+  },
+  {
+    "name":"save the spirit folk",
+    "slot1":"engineering and command",
+    "slot2":"command and diplomacy",
+    "slot3":"diplomacy and security"
+  },
+  {
+    "name":"preserve earth leadership",
+    "slot1":"security and science",
+    "slot2":"engineering and science",
+    "slot3":"command and diplomacy"
+  },
+  {
+    "name":"save captain proton",
+    "slot1":"engineering and diplomacy",
+    "slot2":"security and command",
+    "slot3":"command and security"
+  },
+  {
+    "name":"their rightful place",
+    "slot1":"science",
+    "slot2":"diplomacy and security",
+    "slot3":"medicine or science",
+    "slot4":"command or security",
+    "slot5":"command and security"
+  },
+  {
+    "name":"aid intoxicated aliens",
+    "slot1":"engineering or command",
+    "slot2":"command",
+    "slot3":"engineering or science",
+    "slot4":"medicine or science",
+    "slot5":"command and medicine"
+  },
+  {
+    "name":"the youngest agents",
+    "slot1":"medicine",
+    "slot2":"command and diplomacy",
+    "slot3":"science",
+    "slot4":"command and science"
+  },
+  {
+    "name":"upgrade satan's robot",
+    "slot1":"command",
+    "slot2":"security and science",
+    "slot3":"science and engineering",
+    "slot4":"science"
+  },
+  {
+    "name":"arachnia's pheromones",
+    "slot1":"security and command",
+    "slot2":"science and security",
+    "slot3":"science",
+    "slot4":"command and medicine"
+  },
+  {
+    "name":"dismantle dom-jot ring",
+    "slot1":"command and medicine",
+    "slot2":"command and diplomacy",
+    "slot3":"security and command"
+  },
+  {
+    "name":"no prophets here",
+    "slot1":"engineering",
+    "slot2":"diplomacy",
+    "slot3":"diplomacy and command",
+    "slot4":"command and security"
+  },
+  {
+    "name":"foreign raiders",
+    "slot1":"engineering",
+    "slot2":"science and security",
+    "slot3":"command and security",
+    "slot4":"command and security"
+  },
+  {
+    "name":"evil twins",
+    "slot1":"security",
+    "slot2":"security and command",
+    "slot3":"diplomacy",
+    "slot4":"diplomacy and command"
+  },
+  {
+    "name":"quell anti-holographic sentiment",
+    "slot1":"engineering",
+    "slot2":"security and command",
+    "slot3":"security",
+    "slot4":"command and security"
+  },
+  {
+    "name":"chaotica loves sirella",
+    "slot1":"command and diplomacy",
+    "slot2":"engineering or command",
+    "slot3":"science",
+    "slot4":"command or security",
+    "slot5":"security"
+  },
+  {
+    "name":"save the forests",
+    "slot1":"science and diplomacy",
+    "slot2":"command and medicine",
+    "slot3":"medicine",
+    "slot4":"diplomacy and command"
+  },
+  {
+    "name":"a personal matter",
+    "slot1":"security and diplomacy",
+    "slot2":"security and command",
+    "slot3":"diplomacy",
+    "slot4":"command and security"
+  },
+  {
+    "name":"escort cardassian vip",
+    "slot1":"command or security",
+    "slot2":"command or security",
+    "slot3":"command or security"
+  },
+  {
+    "name":"set bait for maquis",
+    "slot1":"security",
+    "slot2":"security or command",
+    "slot3":"diplomacy"
+  },
+  {
+    "name":"interrogate dissidents",
+    "slot1":"science or medicine",
+    "slot2":"security",
+    "slot3":"security or diplomacy"
+  },
+  {
+    "name":"hostage situation",
+    "slot1":"diplomacy or security",
+    "slot2":"diplomacy or security",
+    "slot3":"diplomacy or security"
   },
   {
     "name":"sisko's self approval",
@@ -946,6 +1993,24 @@
     "slot4":"command or science"
   },
   {
+    "name":"expose enemy collaborators",
+    "slot1":"security",
+    "slot2":"security or diplomacy"
+  },
+  {
+    "name":"develop anti-cloak tech",
+    "slot1":"science and engineering",
+    "slot2":"security",
+    "slot3":"engineering",
+    "slot4":"science"
+  },
+  {
+    "name":"discredit sela's heritage",
+    "slot1":"diplomacy and command",
+    "slot2":"diplomacy",
+    "slot3":"diplomacy"
+  },
+  {
     "name":"expose conspiracy",
     "slot1":"security or diplomacy",
     "slot2":"security or diplomacy",
@@ -1008,6 +2073,41 @@
     "name":"conduct wormhole survey",
     "slot1":"science",
     "slot2":"command"
+  },
+  {
+    "name":"investigate atrocity",
+    "slot1":"security",
+    "slot2":"diplomacy or command",
+    "slot3":"diplomacy and command",
+    "slot4":"diplomacy",
+    "slot5":"diplomacy"
+  },
+  {
+    "name":"medical support",
+    "slot1":"science or medicine",
+    "slot2":"medicine",
+    "slot3":"medicine"
+  },
+  {
+    "name":"recruit remans",
+    "slot1":"diplomacy or command",
+    "slot2":"command",
+    "slot3":"security",
+    "slot4":"diplomacy"
+  },
+  {
+    "name":"steal useful technology",
+    "slot1":"science or engineering"
+  },
+  {
+    "name":"obtain soong research",
+    "slot1":"engineering or science"
+  },
+  {
+    "name":"reach out to assassin",
+    "slot1":"command and diplomacy",
+    "slot2":"diplomacy",
+    "slot3":"diplomacy"
   },
   {
     "name":"investigate orb sighting",

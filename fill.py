@@ -41,7 +41,8 @@ def assign_characters_to_missions(mission_name1, mission_name2, mission_name3, m
     skill_list=get_skill_list(mission_list)
     #pprint(skill_list)
     skills_by_character = get_skills_by_character(skill_list,character_data)
-    pprint(skills_by_character)
+    for skill in skills_by_character:
+        pprint(skill)
     #for key in skills_by_character.keys():
     #    pprint("---" + key + "---")
     #    pprint(skills_by_character[key])
@@ -179,7 +180,7 @@ def validate_characters(character_data):
 
 def find_slot_skill(find_mission,find_slot,mission_data):
     for mission in mission_data['missions']:
-        if find_mission.lower() in mission['name']:
+        if find_mission.lower() == mission['name'].lower():
             return mission[find_slot]
 
 def find_available_character_with_skill(skill,skills_by_character,character_assignments):
@@ -272,7 +273,7 @@ def eval_mission_assignments(character_assignments, mission_data, character_data
     #pprint(character_assignments)
     for key in mission_keys:
         for mission in mission_data['missions']:
-            if key in mission['name']:
+            if key == mission['name']:
                 mission_list.append(mission)
     #pprint(mission_list)
     skill_list=get_skill_list(mission_list)
@@ -311,7 +312,7 @@ def eval_mission_assignments_debug(character_assignments, mission_data, characte
     #pprint(character_assignments)
     for key in mission_keys:
         for mission in mission_data['missions']:
-            if key in mission['name']:
+            if key == mission['name']:
                 mission_list.append(mission)
     #pprint(mission_list)
     skill_list=get_skill_list(mission_list)
@@ -327,7 +328,7 @@ def eval_mission_assignments_debug(character_assignments, mission_data, characte
             character=character_assignments[mission][slot]
             #pprint(character)
             # now we know which character is assigned to this slot
-            for mission_instance in [ item for item in mission_data['missions'] if mission in item['name'] ]:
+            for mission_instance in [ item for item in mission_data['missions'] if mission == item['name'] ]:
                 skill=mission_instance[slot]
                 pprint(skill)
                 #pprint(character_by_skills[character])
@@ -378,7 +379,7 @@ unfrozen_character_data=filter_frozen_characters(character_data)
 #assignments=assign_characters_to_missions("temporal agent daniels","uploading history","the temporal observatory","mccarthy's blacklist", mission_data, character_data)
 #assignments=assign_characters_to_missions("evaluate section 31 base","direct conspiracy","collect terran empire data","evade starfleet agents", mission_data, unfrozen_character_data)
 #assignments=assign_characters_to_missions("capture section 31 chief","aid terra prime rallies","intimidate colony","question section 31 spies", mission_data, unfrozen_character_data)
-assignments=assign_characters_to_missions("the providers' right hand","the best defense","signals and noise","under siege", mission_data, unfrozen_character_data)
+assignments=assign_characters_to_missions("hostage situation","train security forces","oversee bajoran aid","investigate infection", mission_data, unfrozen_character_data)
 
 
 #this will run the search excluding frozen characters
