@@ -3,38 +3,168 @@
   {
     "name":"captain q",
     "bonus":1,
-    "command":372,
-    "diplomacy":606,
-    "science":536
+    "command":398,
+    "diplomacy":648,
+    "science":574
   },
   {
     "name":"human q",
     "bonus":1,
-    "diplomacy":294,
-    "engineering":816,
-    "science":546
+    "diplomacy":326,
+    "engineering":906,
+    "science":601
+  },
+  {
+    "name":"mariachi q",
+    "bonus":1,
+    "diplomacy":770,
+    "security":540
+  },
+  {
+    "name":"prisoner michael burnham",
+    "bonus":1,
+    "diplomacy":65,
+    "security":139,
+    "science":194
+  },
+  {
+    "name":"prisoner o'brien",
+    "bonus":1,
+    "diplomacy":280,
+    "engineering":472,
+    "security":322
+  },
+  {
+    "name":"the viceroy",
+    "bonus":2,
+    "command":402,
+    "diplomacy":321,
+    "security":463
+  },
+  {
+    "name":"commander keras",
+    "bonus":2,
+    "command":766,
+    "diplomacy":502
+  },
+  {
+    "name":"romulan kirk",
+    "bonus":2,
+    "diplomacy":103,
+    "security":70,
+    "command":36
+  },
+  {
+    "name":"mirror janeway",
+    "bonus":1,
+    "command":196,
+    "diplomacy":125,
+    "security":298
+  },
+  {
+    "name":"orion slaver",
+    "bonus":1,
+    "command":34,
+    "diplomacy":86,
+    "security":104
+  },
+  {
+    "name":"graduation michael burnham",
+    "bonus":1,
+    "engineering":770,
+    "science":972
+  },
+  {
+    "name":"commando shran",
+    "bonus":1,
+    "command":747,
+    "diplomacy":353,
+    "security":651
+  },
+  {
+    "name":"kahless the unforgettable",
+    "bonus":1,
+    "command":727,
+    "diplomacy":274,
+    "security":437
+  },
+  {
+    "name":"expedition shran",
+    "bonus":1,
+    "command":44,
+    "diplomacy":105,
+    "security":77
+  },
+  {
+    "name":"lt commander data",
+    "bonus":1,
+    "engineering":381,
+    "security":159,
+    "science":172
+  },
+  {
+    "name":"prospero data",
+    "bonus":1,
+    "command":172,
+    "diplomacy":750,
+    "engineering":447
+  },
+  {
+    "name":"vedek bareil antos",
+    "frozen":false,
+    "bonus":1,
+    "command":332,
+    "diplomacy":681,
+    "medicine":340
+  },
+  {
+    "name":"vedek winn adami",
+    "bonus":1,
+    "command":328,
+    "diplomacy":439
+  },
+  {
+    "name":"changeling bashir",
+    "bonus":1,
+    "engineering":111,
+    "security":230,
+    "medicine":193
+  },
+  {
+    "name":"racquetball bashir",
+    "bonus":1,
+    "command":194,
+    "science":452,
+    "medicine":383
+  },
+  {
+    "name":"mother horta",
+    "bonus":1,
+    "diplomacy":489,
+    "security":633
   },
   {
     "name":"formal dress wesley crusher",
     "bonus":1,
-    "diplomacy":132,
-    "engineering":85,
-    "science":196
+    "diplomacy":249,
+    "engineering":148,
+    "science":379
   },
   {
     "name":"lieutenant saavik",
-    "bonus":1,
+    "bonus":2,
     "frozen":true,
-    "command":470,
-    "science":457,
-    "diplomacy":146
+    "command":522,
+    "science":503,
+    "diplomacy":162
   },
   {
     "name":"platonian kirk",
     "bonus":1,
-    "command":458,
-    "diplomacy":126,
-    "security":495
+    "frozen":false,
+    "command":701,
+    "diplomacy":241,
+    "security":772
   },
   {
     "name":"jake",
@@ -44,42 +174,50 @@
   },
   {
     "name":"security chief tuvok",
-    "frozen":true,
-    "bonus":1,
-    "security":445,
-    "command":291,
-    "science":145
+    "frozen":false,
+    "bonus":2,
+    "security":498,
+    "command":323,
+    "science":160
   },
   {
     "name":"tuvix",
-    "bonus":1,
-    "diplomacy":370,
-    "security":451,
-    "science":131
+    "bonus":2,
+    "diplomacy":731,
+    "security":724,
+    "science":253
   },
   {
     "name":"third remata'klan",
-    "frozen":true,
+    "frozen":false,
     "bonus":1,
-    "security":467,
-    "command":410
+    "security":500,
+    "command":439
   },
   {
     "name":"lwaxana troi",
+    "frozen":false,
     "bonus":1,
     "diplomacy":410,
     "command":334
   },
   {
-    "name":"rakal troi",
+    "name":"luther sloan",
     "bonus":1,
-    "command":377,
-    "security":332,
-    "medicine":279
+    "command":146,
+    "diplomacy":408,
+    "security":308
+  },
+  {
+    "name":"rakal troi",
+    "bonus":2,
+    "command":584,
+    "security":588,
+    "medicine":456
   },
   {
     "name":"chief engineer la forge",
-    "frozen":true,
+    "frozen":false,
     "bonus":1,
     "engineering":465,
     "command":181,
@@ -87,52 +225,93 @@
   },
   {
     "name":"telek r'mor",
-    "bonus":1,
-    "diplomacy":262,
-    "security":119,
-    "science":345
+    "bonus":2,
+    "diplomacy":292,
+    "security":133,
+    "science":382
   },
   {
     "name":"command wrap kirk",
     "bonus":1,
-    "command":292,
-    "diplomacy":153,
-    "security":197
+    "command":407,
+    "diplomacy":205,
+    "security":256
   },
   {
     "name":"enterprise-d picard",
-    "bonus":1,
-    "command":249,
-    "diplomacy":337,
-    "science":151
+    "bonus":2,
+    "command":279,
+    "diplomacy":374,
+    "science":166
   },
   {
     "name":"captain kirk",
     "bonus":1,
-    "command":317,
-    "diplomacy":259,
-    "security":128
+    "command":355,
+    "diplomacy":287,
+    "security":143
   },
   {
     "name":"detective dixon hill",
-    "bonus":1,
-    "command":469,
-    "diplomacy":577,
-    "security":270
+    "bonus":2,
+    "command":559,
+    "diplomacy":679,
+    "security":302
+  },
+  {
+    "name":"tommy gun dixon",
+    "bonus":2,
+    "command":25,
+    "diplomacy":51,
+    "security":61
   },
   {
     "name":"captain sulu",
     "bonus":1,
-    "command":738,
-    "diplomacy":502,
-    "security":330
+    "command":819,
+    "diplomacy":557,
+    "security":363
+  },
+  {
+    "name":"niners rom",
+    "bonus":1,
+    "engineering":947,
+    "security":609
+  },
+  {
+    "name":"vulcan wedding t'pol",
+    "frozen":false,
+    "bonus":2,
+    "diplomacy":714,
+    "science":692,
+    "command":323
+  },
+  {
+    "name":"science officer t'pol",
+    "bonus":2,
+    "science":420,
+    "diplomacy":273
+  },
+  {
+    "name":"niners kira nerys",
+    "bonus":1,
+    "command":159,
+    "diplomacy":65,
+    "security":111
   },
   {
     "name":"advocate kolos",
     "bonus":1,
-    "command":118,
-    "diplomacy":304,
-    "science":227
+    "command":391,
+    "diplomacy":830,
+    "science":740
+  },
+  {
+    "name":"arik soong",
+    "bonus":1,
+    "command":229,
+    "science":777,
+    "medicine":544
   },
   {
     "name":"rifle janeway",
@@ -143,11 +322,112 @@
     "science":143
   },
   {
+    "name":"Kathryn Janeway",
+    "bonus":1,
+    "command":331,
+    "diplomacy":133,
+    "science":271
+  },
+  {
+    "name":"mademoiselle de neuf",
+    "bonus":1,
+    "engineering":231,
+    "security":615,
+    "science":414
+  },
+  {
+    "name":"captain janeway",
+    "bonus":1,
+    "command":561,
+    "diplomacy":380,
+    "science":319
+  },
+  {
+    "name":"mirror archer",
+    "bonus":1,
+    "command":186,
+    "engineering":60,
+    "security":127
+  },
+  {
+    "name":"commander chapel",
+    "bonus":1,
+    "diplomacy":201,
+    "science":672,
+    "medicine":477
+  },
+  {
+    "name":"marla mcgivers",
+    "bonus":1,
+    "diplomacy":1006,
+    "engineering":591
+  },
+  {
+    "name":"Lieutenant commander saru",
+    "bonus":1,
+    "command":274,
+    "science":349
+  },
+  {
+    "name":"first officer saru",
+    "frozen":false,
+    "bonus":1,
+    "command":663,
+    "science":898
+  },
+  {
+    "name":"t'kuvma",
+    "frozen":false,
+    "bonus":1,
+    "command":1217,
+    "security":1058
+  },
+  {
+    "name":"reinforcements stamets",
+    "bonus":1,
+    "security":682,
+    "science":938
+  },
+  {
+    "name":"lt. ash tyler",
+    "bonus":1,
+    "command":724,
+    "security":912
+  },
+  {
+    "name":"celebratory ash tyler",
+    "bonus":1,
+    "command":694,
+    "diplomacy":871,
+    "security":518
+  },
+  {
+    "name":"suus mahna sarek",
+    "bonus":2,
+    "diplomacy":521,
+    "security":786,
+    "science":180
+  },
+  {
+    "name":"sarek (younger)",
+    "bonus":2,
+    "frozen":false,
+    "command":663,
+    "diplomacy":889,
+    "science":372
+  },
+  {
+    "name":"festive jadzia dax",
+    "bonus":1,
+    "diplomacy":283,
+    "science":404
+  },
+  {
     "name":"stranded odo",
     "bonus":1,
-    "command":552,
-    "diplomacy":310,
-    "security":440
+    "command":801,
+    "diplomacy":446,
+    "security":593
   },
   {
     "name":"maquis ro laren",
@@ -159,8 +439,8 @@
   {
     "name":"convergence day quark",
     "bonus":1,
-    "command":378,
-    "diplomacy":368
+    "command":672,
+    "diplomacy":660
   },
   {
     "name":"nurse kes",
@@ -177,50 +457,78 @@
   {
     "name":"section 31 reed",
     "bonus":1,
-    "command":92,
-    "security":218
+    "command":119,
+    "security":309
   },
   {
     "name":"ambassador sarek",
-    "bonus":1,
-    "command":214,
-    "diplomacy":525,
-    "science":361
+    "bonus":2,
+    "command":339,
+    "diplomacy":798,
+    "science":582
   },
   {
     "name":"ambassador spock",
-    "bonus":1,
-    "diplomacy":317,
-    "security":126,
-    "science":293
+    "bonus":2,
+    "diplomacy":629,
+    "security":260,
+    "science":667
+  },
+  {
+    "name":"talos iv spock",
+    "bonus":2,
+    "command":458,
+    "security":576,
+    "science":196
   },
   {
     "name":"klingon quark",
     "bonus":1,
-    "command":280,
-    "diplomacy":478,
-    "security":321
+    "command":403,
+    "diplomacy":707,
+    "security":410
+  },
+  {
+    "name":"tourist quark",
+    "bonus":1,
+    "command":361,
+    "diplomacy":899,
+    "medicine":707
   },
   {
     "name":"klingon dukat",
+    "frozen":false,
     "bonus":1,
-    "command":534,
-    "diplomacy":184,
-    "security":178
+    "command":559,
+    "diplomacy":260,
+    "security":185
+  },
+  {
+    "name":"bajoran dukat",
+    "bonus":1,
+    "command":566,
+    "diplomacy":871
+  },
+  {
+    "name":"young khan",
+    "bonus":1,
+    "command":59,
+    "diplomacy":132,
+    "engineering":92
   },
   {
     "name":"kdf gowron",
     "bonus":1,
-    "command":318,
-    "diplomacy":530,
-    "security":239
+    "command":401,
+    "diplomacy":686,
+    "security":317
   },
   {
     "name":"automated unit 3947",
     "bonus":1,
-    "engineering":393,
-    "security":119,
-    "science":323
+    "engineering":634,
+    "security":206,
+    "science":476
   },
   {
     "name":"angel I riker",
@@ -231,61 +539,137 @@
   {
     "name":"augment riker",
     "bonus":1,
-    "command":241,
-    "engineering":385,
-    "security":389
+    "command":369,
+    "engineering":643,
+    "security":628
   },
   {
     "name":"ensign vorik",
-    "bonus":1,
-    "engineering":383
+    "bonus":2,
+    "engineering":425
+  },
+  {
+    "name":"senator cretak",
+    "bonus":2,
+    "frozen":true,
+    "diplomacy":480,
+    "security":314
+  },
+  {
+    "name":"alidar jarok",
+    "bonus":2,
+    "command":184,
+    "diplomacy":139,
+    "security":73
+  },
+  {
+    "name":"commander tomalak",
+    "bonus":2,
+    "command":273,
+    "security":159
   },
   {
     "name":"constable odo",
-    "frozen":true,
+    "frozen":false,
     "bonus":1,
-    "command":317,
-    "security":523
+    "command":352,
+    "security":575
   },
   {
     "name":"kal-if-fee spock",
-    "bonus":1,
-    "command":335,
-    "security":676,
-    "science":599
+    "bonus":2,
+    "command":372,
+    "security":757,
+    "science":659
   },
   {
     "name":"recovering spock",
+    "bonus":2,
+    "science":365,
+    "diplomacy":179,
+    "command":130
+  },
+  {
+    "name":"mora pol",
     "bonus":1,
-    "science":332,
-    "diplomacy":161,
-    "command":117
+    "command":97,
+    "science":217,
+    "medicine":165
   },
   {
     "name":"warship chakotay",
     "bonus":1,
-    "command":258,
+    "command":325,
+    "security":666
+  },
+  {
+    "name":"expedition vash",
+    "bonus":1,
+    "diplomacy":154,
+    "security":440,
+    "science":237
+  },
+  {
+    "name":"shared crew",
+    "bonus":1,
+    "diplomacy":349,
+    "science":938,
+    "command":226
+  },
+  {
+    "name":"prisoner katrina cornwell",
+    "frozen":true,
+    "bonus":1,
+    "diplomacy":1164,
+    "security":659,
+    "medicine":1316
+  },
+  {
+    "name":"ambassador shras",
+    "bonus":1,
+    "command":708,
+    "diplomacy":1031,
     "security":409
+  },
+  {
+    "name":"lieutenant tarah",
+    "bonus":1,
+    "diplomacy":291,
+    "security":771
+  },
+  {
+    "name":"duelist barclay",
+    "bonus":1,
+    "engineering":526,
+    "security":381,
+    "science":201
+  },
+  {
+    "name":"mirror geordi la forge",
+    "bonus":1,
+    "engineering":682,
+    "security":445,
+    "science":587
   },
   {
     "name":"mirror 'smiley' o'brien",
     "bonus":1,
-    "command":150,
-    "engineering":228,
-    "security":85
+    "command":373,
+    "engineering":545,
+    "security":180
   },
   {
     "name":"holodeck 3 dr. brahms",
     "bonus":1,
-    "engineering":155,
-    "science":207
+    "engineering":382,
+    "science":474
   },
   {
     "name":"chief o'brien",
     "bonus":1,
-    "command":123,
-    "engineering":322,
-    "security":229
+    "command":275,
+    "engineering":577,
+    "security":438
   },
   {
     "name":"boomer mayweather",
@@ -296,44 +680,90 @@
   {
     "name":"boxer chakotay",
     "bonus":1,
-    "command":151,
-    "diplomacy":223,
-    "security":318
+    "command":302,
+    "diplomacy":369,
+    "security":619
   },
   {
     "name":"commando crusher",
     "bonus":1,
-    "frozen":true,
-    "security":308,
-    "science":182,
-    "medicine":510
+    "frozen":false,
+    "security":330,
+    "science":195,
+    "medicine":546
   },
   {
     "name":"captain proton paris",
     "bonus":1,
-    "command":484,
-    "engineering":197,
-    "security":344
+    "command":686,
+    "engineering":350,
+    "security":474
   },
   {
     "name":"combat medic paris",
     "bonus":1,
-    "command":208,
-    "security":460,
-    "medicine":679
+    "command":303,
+    "security":544,
+    "medicine":826
+  },
+  {
+    "name":"mutated paris",
+    "bonus":1,
+    "diplomacy":617,
+    "medicine":343
+  },
+  {
+    "name":"martia",
+    "bonus":1,
+    "diplomacy":798,
+    "security":702
+  },
+  {
+    "name":"prisoner 'bones' mccoy",
+    "bonus":1,
+    "diplomacy":301,
+    "medicine":493
+  },
+  {
+    "name":"dark ages mccoy",
+    "bonus":1,
+    "diplomacy":397,
+    "security":355,
+    "medicine":688
+  },
+  {
+    "name":"katra mccoy",
+    "bonus":2,
+    "diplomacy":397,
+    "science":295,
+    "medicine":767
   },
   {
     "name":"hockey paris",
     "bonus":1,
-    "command":187,
-    "diplomacy":75,
-    "security":144
+    "command":452,
+    "diplomacy":222,
+    "security":376
+  },
+  {
+    "name":"hockey kim",
+    "bonus":1,
+    "engineering":493,
+    "security":361,
+    "command":216
+  },
+  {
+    "name":"nurse faith garland",
+    "bonus":1,
+    "diplomacy":485,
+    "science":288,
+    "medicine":345
   },
   {
     "name":"nurse paris",
     "bonus":1,
-    "command":334,
-    "medicine":121
+    "command":359,
+    "medicine":136
   },
   {
     "name":"dr. carol marcus",
@@ -343,74 +773,207 @@
   },
   {
     "name":"holonovel doctor",
+    "frozen":false,
     "bonus":1,
-    "science":512,
-    "medicine":799
+    "science":563,
+    "medicine":887
   },
   {
     "name":"dr. tolian soran",
     "bonus":1,
-    "engineering":353,
-    "science":503
+    "engineering":604,
+    "science":789
   },
   {
     "name":"riley frazier",
     "bonus":1,
-    "command":281,
-    "diplomacy":485,
-    "science":366
+    "command":460,
+    "diplomacy":718,
+    "science":523
   },
   {
     "name":"disguised tuvok",
-    "bonus":1,
-    "command":236,
-    "security":348,
-    "science":592
+    "bonus":2,
+    "command":325,
+    "security":469,
+    "science":760
   },
   {
     "name":"assimilated tuvok",
-    "bonus":1,
-    "command":444,
-    "security":723,
-    "science":222
+    "bonus":2,
+    "command":493,
+    "security":810,
+    "science":244
   },
   {
     "name":"tuskegee mayweather",
     "bonus":1,
-    "command":382,
-    "engineering":569
+    "command":457,
+    "engineering":704
+  },
+  {
+    "name":"age of sail crusher",
+    "frozen":false,
+    "bonus":1,
+    "command":197,
+    "diplomacy":474,
+    "medicine":658
+  },
+  {
+    "name":"age of sail la forge",
+    "bonus":1,
+    "command":89,
+    "engineering":134,
+    "security":54
+  },
+  {
+    "name":"bartender guinan",
+    "bonus":1,
+    "diplomacy":912,
+    "security":521,
+    "medicine":713
   },
   {
     "name":"persis",
     "bonus":1,
-    "diplomacy":193,
-    "security":199
+    "diplomacy":303,
+    "security":253
   },
   {
     "name":"major kira",
+    "frozen":false,
     "bonus":1,
     "command":273,
     "security":304
   },
   {
     "name":"tailor garak",
-    "frozen":true,
+    "frozen":false,
     "bonus":1,
-    "diplomacy":395,
-    "security":502,
-    "engineering":161
+    "diplomacy":438,
+    "security":552,
+    "engineering":179
   },
   {
     "name":"subcommander t'pol",
-    "frozen":true,
+    "frozen":false,
+    "bonus":2,
+    "command":303,
+    "security":185,
+    "science":572
+  },
+  {
+    "name":"captain la forge",
     "bonus":1,
-    "command":273,
-    "security":165,
-    "science":520
+    "command":645,
+    "engineering":520,
+    "science":247
+  },
+  {
+    "name":"captain t'pol",
+    "bonus":2,
+    "command":616,
+    "diplomacy":122,
+    "science":428
+  },
+  {
+    "name":"T'Mir",
+    "bonus":2,
+    "command":761,
+    "diplomacy":618
+  },
+  {
+    "name":"surak",
+    "frozen":false,
+    "bonus":3,
+    "command":385,
+    "diplomacy":608,
+    "science":1165
+  },
+  {
+    "name":"amanda greyson",
+    "bonus":1,
+    "diplomacy":658,
+    "medicine":552
+  },
+  {
+    "name":"mirror jean-luc picard",
+    "bonus":2,
+    "frozen":false,
+    "command":1167,
+    "security":1100,
+    "science":641
+  },
+  {
+    "name":"mirror empress sato",
+    "bonus":1,
+    "command":232,
+    "diplomacy":766,
+    "security":608
+  },
+  {
+    "name":"mirror tucker",
+    "frozen":false,
+    "bonus":1,
+    "engineering":775,
+    "security":616
+  },
+  {
+    "name":"time loop mudd",
+    "bonus":1,
+    "diplomacy":327,
+    "engineering":789,
+    "security":786
+  },
+  {
+    "name":"rescuer tucker",
+    "bonus":1,
+    "command":211,
+    "engineering":454,
+    "security":403
+  },
+  {
+    "name":"mirror jadzia dax",
+    "bonus":1,
+    "engineering":440,
+    "security":932,
+    "science":283
+  },
+  {
+    "name":"mirror uhura",
+    "bonus":1,
+    "diplomacy":581,
+    "security":347
+  },
+  {
+    "name":"mirrir vic fontaine",
+    "bonus":1,
+    "diplomacy":217,
+    "security":419
+  },
+  {
+    "name":"mirror jennifer sisko",
+    "bonus":1,
+    "diplomacy":396,
+    "engineering":468,
+    "science":603
+  },
+  {
+    "name":"mirror garak",
+    "bonus":1,
+    "command":593,
+    "diplomacy":687,
+    "security":470
+  },
+  {
+    "name":"kurros",
+    "bonus":1,
+    "command":225,
+    "diplomacy":332
   },
   {
     "name":"dr. reyga",
-    "frozen":true,
+    "frozen":false,
     "bonus":1,
     "diplomacy":300,
     "science":512
@@ -424,8 +987,8 @@
   {
     "name":"mirror sisko",
     "bonus":1,
-    "command":315,
-    "security":388
+    "command":337,
+    "security":411
   },
   {
     "name":"promoted sisko",
@@ -435,9 +998,44 @@
     "security":271
   },
   {
+    "name":"victorian pulaksi",
+    "bonus":1,
+    "diplomacy":1094,
+    "medicine":682
+  },
+  {
     "name":"cmo crusher",
     "bonus":1,
-    "medicine":290
+    "medicine":310
+  },
+  {
+    "name":"sybok",
+    "bonus":2,
+    "diplomacy":676,
+    "science":498,
+    "medicine":105
+  },
+  {
+    "name":"apollo",
+    "bonus":1,
+    "command":41,
+    "diplomacy":82,
+    "medicine":116
+  },
+  {
+    "name":"agent harris",
+    "bonus":1,
+    "command":68,
+    "diplomacy":49,
+    "security":25
+  },
+  {
+    "name":"dr crusher",
+    "frozen":false,
+    "bonus":1,
+    "command":305,
+    "security":485,
+    "medicine":817
   },
   {
     "name":"cadet sito jaxa",
@@ -448,56 +1046,100 @@
   },
   {
     "name":"deanna troi",
-    "frozen":true,
-    "bonus":1,
-    "command":127,
-    "diplomacy":298,
-    "medicine":412
+    "frozen":false,
+    "bonus":2,
+    "command":142,
+    "diplomacy":331,
+    "medicine":461
+  },
+  {
+    "name":"mintakan troi",
+    "bonus":3,
+    "diplomacy":573,
+    "science":199,
+    "medicine":275
   },
   {
     "name":"commander kruge",
     "bonus":1,
-    "command":256,
-    "security":410
+    "command":322,
+    "security":439
+  },
+  {
+    "name":"acting nagus brunt",
+    "bonus":1,
+    "frozen":true,
+    "diplomacy":450,
+    "security":290,
+    "command":226
   },
   {
     "name":"captain kasidy yates",
     "bonus":1,
-    "command":402,
-    "diplomacy":164,
-    "security":273
+    "command":477,
+    "diplomacy":204,
+    "security":360
   },
   {
     "name":"doctor selar",
-    "bonus":1,
-    "medicine":313
+    "bonus":2,
+    "medicine":458
+  },
+  {
+    "name":"commander sela",
+    "frozen":false,
+    "bonus":3,
+    "command":612,
+    "diplomacy":461,
+    "security":252
+  },
+  {
+    "name":"subcommander t'rul",
+    "bonus":2,
+    "engineering":695,
+    "science":204,
+    "security":179
   },
   {
     "name":"lieutenant valeris",
-    "bonus":1,
-    "command":101,
-    "security":213,
-    "science":137
+    "bonus":2,
+    "command":244,
+    "security":648,
+    "science":426
   },
   {
     "name":"maquis takeover torres",
     "bonus":1,
     "command":148,
+    "frozen":false,
     "engineering":462,
     "security":281
   },
   {
+    "name":"commander barak",
+    "bonus":1,
+    "command":998,
+    "security":702
+  },
+  {
     "name":"kortar",
     "bonus":1,
-    "command":791,
-    "diplomacy":404,
-    "security":1109
+    "command":1022,
+    "diplomacy":448,
+    "security":1330
   },
   {
     "name":"lursa duras",
     "bonus":1,
     "command":261,
     "security":127
+  },
+  {
+    "name":"the duras sisters",
+    "bonus":1,
+    "command":253,
+    "diplomacy":440,
+    "security":545
   },
   {
     "name":"commander kang",
@@ -509,14 +1151,20 @@
   {
     "name":"general martok",
     "bonus":1,
-    "command":489,
-    "security":721
+    "command":543,
+    "security":793
+  },
+  {
+    "name":"civil war worf",
+    "bonus":1,
+    "command":314,
+    "security":518
   },
   {
     "name":"ba'ku worf",
     "bonus":1,
-    "command":289,
-    "security":541
+    "command":492,
+    "security":877
   },
   {
     "name":"commander kor",
@@ -528,15 +1176,36 @@
   {
     "name":"dahar master kor",
     "bonus":1,
-    "command":480,
-    "diplomacy":624,
-    "security":281
+    "frozen":false,
+    "command":661,
+    "diplomacy":862,
+    "security":317
+  },
+  {
+    "name":"klingon o'brien",
+    "bonus":1,
+    "diplomacy":828,
+    "engineering":654,
+    "security":480
   },
   {
     "name":"klingon neelix",
     "bonus":1,
-    "diplomacy":106,
-    "security":177
+    "diplomacy":129,
+    "security":189
+  },
+  {
+    "name":"ambassador neelix",
+    "bonus":1,
+    "diplomacy":433,
+    "engineering":371
+  },
+  {
+    "name":"grand proxy neelix",
+    "bonus":1,
+    "command":325,
+    "diplomacy":160,
+    "engineering":193
   },
   {
     "name":"koloth",
@@ -561,41 +1230,60 @@
     "name":"liason torres",
     "bonus":1,
     "command":206,
-    "diplomacy":550,
+    "diplomacy":565,
     "engineering":446
   },
   {
     "name":"sniper reed",
     "bonus":1,
-    "command":206,
-    "security":224
+    "command":331,
+    "security":401
+  },
+  {
+    "name":"rura penthe reed",
+    "bonus":1,
+    "command":532,
+    "security":668
   },
   {
     "name":"admiral picard",
-    "bonus":1,
-    "command":477,
-    "diplomacy":686,
-    "science":340
+    "bonus":2,
+    "command":534,
+    "diplomacy":761,
+    "science":374
   },
   {
     "name":"1701 jadzia dax",
+    "frozen":false,
     "bonus":1,
-    "engineering":510,
-    "security":301,
-    "science":813
+    "engineering":566,
+    "security":334,
+    "science":894
+  },
+  {
+    "name":"torchbearer voq",
+    "bonus":1,
+    "command":537,
+    "diplomacy":922,
+    "security":552
   },
   {
     "name":"captain klaa",
     "bonus":1,
-    "command":639,
-    "security":417
+    "command":826,
+    "security":574
+  },
+  {
+    "name":"private s. money",
+    "bonus":1,
+    "security":508
   },
   {
     "name":"sniper ezri dax",
     "bonus":1,
-    "diplomacy":161,
-    "security":215,
-    "medicine":225
+    "diplomacy":227,
+    "security":351,
+    "medicine":391
   },
   {
     "name":"ensign wesley",
@@ -614,36 +1302,85 @@
   {
     "name":"anastasia komananov",
     "bonus":1,
-    "diplomacy":426,
-    "security":317
+    "diplomacy":579,
+    "security":445
+  },
+  {
+    "name":"danara pel",
+    "bonus":1,
+    "science":476,
+    "medicine":494
+  },
+  {
+    "name":"ruk",
+    "bonus":1,
+    "engineering":571,
+    "security":821,
+    "science":314
+  },
+  {
+    "name":"doctor chaotica",
+    "bonus":1,
+    "command":584,
+    "science":612
+  },
+  {
+    "name":"author doctor",
+    "bonus":1,
+    "diplomacy":132,
+    "medicine":97
+  },
+  {
+    "name":"surgeon phlox",
+    "bonus":1,
+    "command":202,
+    "science":204,
+    "medicine":234
+  },
+  {
+    "name":"command hologram",
+    "bonus":1,
+    "command":61,
+    "security":32,
+    "medicine":110
   },
   {
     "name":"mirror phlox",
+    "frozen":false,
     "bonus":1,
-    "security":532,
-    "medicine":802
-  },
-  {
-    "name":"mirror garak",
-    "bonus":1,
-    "command":143,
-    "diplomacy":161,
-    "security":90
+    "security":591,
+    "medicine":890
   },
   {
     "name":"rogue harry kim",
     "frozen":true,
     "bonus":1,
-    "engineering":311,
-    "security":504,
-    "science":626
+    "engineering":333,
+    "security":539,
+    "science":670
+  },
+  {
+    "name":"buster kincaid kim",
+    "frozen":false,
+    "bonus":1,
+    "security":854,
+    "engineering":612,
+    "science":408
+  },
+  {
+    "name":"professor scott",
+    "bonus":1,
+    "command":185,
+    "engineering":658,
+    "science":422
   },
   {
     "name":"bridge officer troi",
-    "bonus":1,
-    "command":324,
-    "diplomacy":235,
-    "medicine":408
+    "frozen":false,
+    "bonus":2,
+    "command":669,
+    "diplomacy":337,
+    "medicine":690
   },
   {
     "name":"seven in blue",
@@ -652,16 +1389,23 @@
     "engineering":278
   },
   {
+    "name":"tsunkatse seven",
+    "bonus":1,
+    "command":513,
+    "security":673,
+    "science":178
+  },
+  {
     "name":"temporal agent seven",
     "bonus":1,
-    "engineering":208,
-    "security":193,
-    "science":301
+    "engineering":548,
+    "security":627,
+    "science":641
   },
   {
     "name":"icheb",
     "bonus":1,
-    "engineering":474,
+    "engineering":473,
     "science":408
   },
   {
@@ -680,13 +1424,13 @@
   {
     "name":"princess jadzia",
     "bonus":1,
-    "diplomacy":477,
-    "engineering":253,
-    "science":783
+    "diplomacy":640,
+    "engineering":344,
+    "science":970
   },
   {
     "name":"ensign mendon",
-    "frozen":true,
+    "frozen":false,
     "bonus":1,
     "engineering":420,
     "science":448
@@ -697,24 +1441,37 @@
     "security":338
   },
   {
+    "name":"warship yar",
+    "bonus":1,
+    "command":316,
+    "security":683
+  },
+  {
+    "name":"duelist yar",
+    "bonus":1,
+    "command":435,
+    "diplomacy":507,
+    "security":671
+  },
+  {
     "name":"drone seven of nine",
     "bonus":1,
-    "engineering":336,
-    "security":167,
-    "science":270
+    "engineering":805,
+    "security":265,
+    "science":475
   },
   {
     "name":"hugh",
     "bonus":1,
-    "diplomacy":209,
-    "engineering":124,
-    "security":240
+    "diplomacy":323,
+    "engineering":190,
+    "security":361
   },
   {
     "name":"keevan",
     "bonus":1,
-    "command":284,
-    "diplomacy":204
+    "command":520,
+    "diplomacy":324
   },
   {
     "name":"jazz musician riker",
@@ -724,10 +1481,11 @@
   },
   {
     "name":"borg queen",
+    "frozen":false,
     "bonus":1,
-    "command":1184,
-    "diplomacy":892,
-    "engineering":660
+    "command":1370,
+    "diplomacy":990,
+    "engineering":733
   }
   ]
 }
