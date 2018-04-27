@@ -5,7 +5,7 @@ import json
 from pprint import pprint
 from collections import defaultdict
 from copy import deepcopy
-import missions
+import mission_list
 
 #pprint(mission_data)
 
@@ -264,7 +264,7 @@ def get_character_skill(skill, character):
         elif "and" in skill_words:
             skill_num=0
             if skill_words[0] in character.keys():
-                skill_num=skill_num + (character[skill_words[0]]*3)
+                skill_num=skill_num + (character[skill_words[0]]*4)
             if skill_words[2] in character.keys():
                 skill_num=skill_num + character[skill_words[2]]
             return skill_num*character['bonus']/4
@@ -374,129 +374,10 @@ validate_characters(character_data)
 
 unfrozen_character_data=filter_frozen_characters(character_data)
 
-#this will run the search including frozen characters
-#assignments=assign_characters_to_missions("underground movement","fire with fire","connecting the dots","disarmament", mission_data, character_data)
-#assignments=assign_characters_to_missions("influence commander","configure mind-sifter","support alliance ally","summon mercenaries", mission_data, character_data)
-#assignments=assign_characters_to_missions("treat hirogen hunter","repair comm relay","revise holoprogram","negotiate hunting rights", mission_data, unfrozen_character_data)
-#assignments=assign_characters_to_missions("co-opt scientists","raid cold stations","colonize new world","steal eugenics research", mission_data, character_data)
-#assignments=assign_characters_to_missions("expose conspiracy","steal starfleet technology","intimidate colony","test officer loyalty", mission_data, character_data)
-#assignments=assign_characters_to_missions("support alliance ally","influence commander","summon mercenaries","configure mind-sifter", mission_data, character_data)
-#assignments=assign_characters_to_missions("essential cargo","deadlock","shortcuts","still holding on", mission_data, unfrozen_character_data)
-#assignments=assign_characters_to_missions("resettle refugees","evaluate sentient ai","hot dog","investigate corruption", mission_data, unfrozen_character_data)
-#assignments=assign_characters_to_missions("temporal agent daniels","uploading history","the temporal observatory","mccarthy's blacklist", mission_data, character_data)
-#assignments=assign_characters_to_missions("evaluate section 31 base","direct conspiracy","collect terran empire data","evade starfleet agents", mission_data, unfrozen_character_data)
-#assignments=assign_characters_to_missions("capture section 31 chief","aid terra prime rallies","intimidate colony","question section 31 spies", mission_data, unfrozen_character_data)
-#missions=["rabid dogs","hunting for science","almost real","dueling for science"]
-#missions=["third eye","hunting for science","neither snow nor rain","dueling for science"]
-#missions=["shock collars","third eye","dueling for science","rabid dogs"]
-#missions=["control without fear","self-destruct sequence","neither snow nor rain","almost real"]
-#missions=["neither snow nor rain","self-destruct sequence","third eye","rabid dogs"]
-#missions=["calm under pressure","self-destruct sequence","third eye","hunting for science"]
-#missions=["self-destruct sequence","calm under pressure","neither snow nor rain","almost real"]
-#missions=["third eye","no hunting in captivity","hunting for science","almost real"]
-#missions=["no hunting in captivity","loners by nature","creature or sentient?","zoology major"]
-#missions=["always watching","creature or sentient?","herding cats","the ultimate prize"]
-#missions=["humane society","donated by","the comforts of home","creature or sentient?"]
-#missions=["loners by nature","the comforts of home","the ultimate prize","herding cats"]
-#missions=["donated by","herding cats","the ultimate prize","creature or sentient?"]
-#missions=["the ultimate prize","always watching","the comforts of home","humane society"]
-#missions=["calm under pressure","hunting for science","humane society","third eye"]
-#missions=["control without fear","hunting for science","creature or sentient?","the ultimate prize"]
-#missions=["collect terran empire data","direct conspiracy","arrest rally leaders","sisko's self approval"]
-#missions=["evade starfleet agents","test agent loyalty","terran empire deep cover","take terran empire devices"]
-#missions=["useless information","running on empty","homecoming","dissention in the ranks"]
-#missions=["it takes one","repercussions","the tantalus solution","methods and madness"]
-#missions=["coming to an understanding","it takes one","repercussions","what's next?"]
-#missions=["coming to an understanding","it takes one","what's next?","terror at cold station 12"]
-#missions=["repercussions","it takes one","what's next?","burying the hatchet"]
-#missions=["it takes one","what's next?","terror at cold station 12","coming to an understanding"]
-#missions=["terror at cold station 12","burying the hatchet","what's next?","repercussions"]
-#missions=["repercussions","coming to an understanding","it takes one","what's next?"]
-#missions=["terror at cold station 12","it takes one","repercussions","coming to an understanding"]
-#missions=["terror at cold station 12","coming to an understanding","it takes one","burying the hatchet"]
-#missions=["repercussions","burying the hatchet","what's next?","it takes one"]
-#missions=["repercussions","it takes one","coming to an understanding","terror at cold station 12"]
-#missions=["terror at cold station 12","it takes one","burying the hatchet","what's next?"]
-#missions=["breaking chains","the falcon's cry","plague doctors","firewall"]
-#missions=["silent listeners","keep your friends close","firewall","you have the floor"]
-#missions=["silent listeners","keep your friends close","plague doctors","a vow of inaction"]
-#missions=["firewall","a vow of inaction","the falcon's cry","the father of us all"]
-#missions=["i spy","silent listeners","you have the floor","the father of us all"]
-#missions=["a vow of inaction","the father of us all","keep your friends close","breaking chains"]
-#missions=["i spy","firewall","a vow of inaction","silent listeners"]
-#missions=["breaking bread","one hand knows not","the magnificent keevan","long live weyoun"]
-#missions=["eye for an eye","top secret","the magnificent keevan","one hand knows not"]
-#missions=["long live weyoun","silithium signals","top secret","one hand knows not"]
-#missions=["top secret","one hand knows not","the missing agent","eye for an eye"]
-#missions=["eye for an eye","the missing agent","one hand knows not","silithium signals"]
-#missions=["top secret","the missing agent","breaking bread","one hand knows not"]
-#missions=["eye for an eye","a changeling voice","breaking bread","top secret"]
-#missions=["coded messages","eye for an eye","silithium signals","long live weyoun"]
-#missions=["coded messages","breaking bread","top secret","long live weyoun"]
-#missions=["silithium signals","the missing agent","coded messages","the magnificent keevan"]
-#missions=["a changeling voice","eye for an eye","breaking bread","the magnificent keevan"]
-#missions=["manufactured triumph","peanuts and crackerjacks","most consecutive hits","the ferengi's new clothes"]
-#missions=["there's no killing in baseball","merchandising potential","learning from the best","team selection"]
-#missions=["there's no killing in baseball","merchandising potential","learning from the best","short stop"]
-#missions=["manufactured triumph","team selection","up to bat","batting cages"]
-#missions=["a league of her own","most consecutive hits","peanuts and crackerjacks","the ferengi's new clothes"]
-#missions=["batting cages","team selection","most consecutive hits","up to bat"]
-#missions=["short stop","up to bat","batting cages","merchandising potential"]
-#missions=["merchandising potential","up to bat","learning from the best","most consecutive hits"]
-#missions=["team selection","up to bat","a league of her own","short stop"]
-#missions=["let my subjects go","holographic interference","going somewhere?","a spoonful of sugar"]
-#missions=["working together","a spoonful of sugar","what lies beneath","going somewhere?"]
-#missions=["going somewhere?","working together","let my subjects go","a spoonful of sugar"]
-#missions=["holographic interference","let my subjects go","working together","what lies beneath"]
-#missions=["going somewhere?","let my subjects go","what lies beneath","working together"]
-#missions=["a spoonful of sugar","what lies beneath","let my subjects go","going somewhere?"]
-#missions=["holographic interference","let my subjects go","going somewhere?","what lies beneath"]
-#missions=["let my subjects go","what lies beneath","going somewhere?","a spoonful of sugar"]
-#missions=["going somewhere?","working together","holographic interference","what lies beneath"]
-#missions=["truth behind the legend","blueprints","a logical course","roads once traveled"]
-#missions=["the weight of memory","vessels","old wounds","roads once traveled"]
-#missions=["vessels","truth behind the legend","the needs of the many","calm within the storm"]
-#missions=["roads once traveled","the weight of memory","truth behind the legend","philosophical differences"]
-#missions=["roads once traveled","the weight of memory","truth behind the legend","philosophical differences"]
-#missions=["calm within the storm","roads once traveled","the weight of memory","philosophical differences"]
-#missions=["vessels","the needs of the many","old wounds","the weight of memory"]
-#missions=["out of synch","vessels","the unchained mind","truth behind the legend"]
-#missions=["philosophical differences","out of synch","the weight of memory","calm within the storm"]
-#missions=["philosophical differences","calm within the storm","blueprints","the unchained mind"]
-#missions=["the weight of memory","roads once traveled","out of synch","old wounds"]
-#missions=["truth behind the legend","old wounds","a logical course","vessels"]
-#missions=["the unchained mind","old wounds","the weight of memory","out of synch"]
-#missions=["calm within the storm","the needs of the many","out of synch","truth behind the legend"]
-#missions=["the needs of the many","vessels","philosophical differences","calm within the storm"]
-#missions=["vessels","out of synch","roads once traveled","old wounds"]
-#missions=["roads once traveled","vessels","calm within the storm","blueprints"]
-#missions=["out of synch","calm within the storm","the unchained mind","old wounds"]
-#missions=["truth behind the legend","blueprints","out of synch","roads once traveled"]
-#missions=["the core of deception","waves beneath the cloak","the neutral zone","a delicate situation"]
-#missions=["the neutral zone","the core of deception","aiding the enemy","waves beneath the cloak"]
-#missions=["the neutral zone","the core of deception","waves beneath the cloak","adjusting the emitters"]
-#missions=["adjusting the emitters","a bit of diplomacy","aiding the enemy","a delicate situation"]
-#missions=["by force, if necessary","proper planning","waves beneath the cloak","a delicate situation"]
-#missions=["a delicate situation","aiding an enemy","waves beneath the cloak","a bit of diplomacy"]
-#missions=["a delicate situation","adjusting the emitters","a bit of diplomacy","waves beneath the cloak"]
-#missions=["the element of surprise","adjusting the emitters","waves beneath the cloak","aiding an enemy"]
-#missions=["waves beneath the cloak","the neutral zone","adjusting the emitters","aiding an enemy"]
-#missions=["disarm first","proper planning","aiding an enemy","the core of deception"]
-#missions=["aiding an enemy","footing the bill","disarm first","by force, if necessary"]
-#missions=["the neutral zone","disarm first","the core of deception","adjusting the emitters"]
-#missions=["adjusting the emitters","the core of deception","the element of surprise","aiding an enemy"]
-#missions=["the element of surprise","the neutral zone","aiding an enemy","disarm first"]
-#missions=["a bit of diplomacy","waves beneath the cloak","proper planning","the core of deception"]
-#missions=["by force, if necessary","the element of surprise","a delicate situation","a bit of diplomacy"]
-#missions=["footing the bill","disarm first","a delicate situation","waves beneath the cloak"]
-#missions=["adjusting the emitters","disarm first","footing the bill","the neutral zone"]
-#missions=["footing the bill","aiding an enemy","by force, if necessary","the core of deception"]
-#missions=["they can't change","probing the mind","countermovement","quid pro quo"]
-#missions=["hear no evil","they can't change","probing the mind","quid pro quo"]
-missions=["those who are left","quid pro quo","hear no evil","probing the mind"]
-assignments=assign_characters_to_missions(missions[0],missions[1],missions[2],missions[3], mission_data, unfrozen_character_data)
 
-assignments2=assign_characters_to_missions(missions[0],missions[1],missions[2],missions[3], mission_data, character_data)
+assignments=assign_characters_to_missions(mission_list.missions[0],mission_list.missions[1],mission_list.missions[2],mission_list.missions[3], mission_data, unfrozen_character_data)
+
+assignments2=assign_characters_to_missions(mission_list.missions[0],mission_list.missions[1],mission_list.missions[2],mission_list.missions[3], mission_data, character_data)
 
 #assignments3=assign_characters_to_voyage("science","security",character_data)
 
